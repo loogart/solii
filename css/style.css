@@ -128,3 +128,7 @@ a {
 .overflow-hidden {
     overflow: hidden;
 }
+
+.nav-logo {
+     height:32px;
+}
