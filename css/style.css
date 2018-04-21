@@ -1,5 +1,6 @@
 :root {
-    --dark: #000;
+    --darker: #0B0B09;
+    --beige: #D29D81;
 }
 
 @font-face {
@@ -59,41 +60,6 @@ a {
     text-decoration: none;
 }
 
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-
-.product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
-    border-radius: 21px;
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-}
-
-.product-device::before {
-    position: absolute;
-    top: 10%;
-    right: 10px;
-    bottom: 10%;
-    left: 10px;
-    content: "";
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 5px;
-}
-
-.product-device-2 {
-    top: -25%;
-    right: auto;
-    bottom: 0;
-    left: 5%;
-    background-color: #e5e5e5;
-}
-
 
 /*
  * Extra utilities
@@ -131,6 +97,89 @@ a {
     height: 32px;
 }
 
+nav.sub-menu {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 100px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.nav-img {
+    height: 80px;
+}
+
+nav.sub-menu p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 16px;
+}
+
+nav.sub-menu a:hover {
+    color: #000;
+}
+
 .video-shadow {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.bg-darker {
+    background-color: var(--darker);
+}
+
+.darker {
+    color: var(--darker)!important;
+}
+
+.bg-beige {
+    background-color: var(--beige);
+}
+
+.beige {
+    color: var(--beige)!important;
+}
+
+.search-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.search-box .form-control {
+    width: 100%;
+    height: ;
+    padding: 1.47rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #333;
+    background-clip: inherit;
+    border: 0px solid transparent;
+    border-radius: 0;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+small a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+small a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+a.close-search {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    color: #fff!important;
+    background-color: transparent;
+    border: 0 width:auto;
+    height: auto;
+    z-index:1000;
+    padding-top:12px;
 }
