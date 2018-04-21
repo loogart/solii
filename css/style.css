@@ -1,5 +1,5 @@
 :root {
---dark: #000;
+    --dark: #000;
 }
 
 @font-face {
@@ -18,11 +18,9 @@ h3,
 h4,
 h5,
 h6,
-p,
 a {
-    font-family: 'Alte-DIN-1451-Mittelschrift';
+    font-family: 'Alte-DIN-1451-Mittelschrift', sans-serif;
     letter-spacing: 2px;
-
 }
 
 .btn {
@@ -130,5 +128,9 @@ a {
 }
 
 .nav-logo {
-     height:32px;
+    height: 32px;
+}
+
+.video-shadow {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
