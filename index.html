@@ -18,68 +18,70 @@
 
     <!-- main navigation -->
     <nav class="site-header sticky-top py-1">
-        <div class="container d-flex flex-row justify-content-between text-uppercase">
-            <a class="py-3" href="#">
+        <div class="container d-flex flex-row justify-content-between text-uppercase scrollmenu">
+            <a class="p-3" href="#">
               <img class="nav-logo mt-md-" src="./img/logo-solii-short.svg">
             </a>
-            <a class="py-3 d-none d-md-inline-block" href="#!" id="showWindows">Windows</a>
-            <a class="py-3 d-none d-md-inline-block" href="#!" id="showDoors">Doors</a>
-            <a class="py-3 d-none d-md-inline-block" href="#">About</a>
-            <a class="py-3 d-none d-md-inline-block" href="#">Contact</a>
-            <a class="py-3 d-none d-md-inline-block" href="#" id="showSearch"><i class="fa fa-search"></i> Search</a>
+            <a class="p-3" href="#!" id="showWindows">Windows</a>
+            <a class="p-3" href="#!" id="showDoors">Doors</a>
+            <a class="p-3" href="#!">About</a>
+            <a class="p-3" href="#!">Contact</a>
+            <a class="p-3" href="#!" id="showSearch"><i class="fa fa-search"></i> Search</a>
+            <!--
             <a class="py-4 d-line-block d-md-none" href="#!" style="position:absolute;top:0;right:20px;">    <i class="fal fa-bars fa-2x"></i>
             </a>
+-->
         </div>
         <!-- sub menu windows -->
-        <nav class="sub-menu sub-menu__1 justify-content-center p-4 text-center d-none">
-            <a href="#!" class="mx-4">
+        <nav class="sub-menu sub-menu__1 justify-content-start justify-content-md-center p-4 text-center d-none">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/windows/inswing.jpg">
                 <p>Inswing</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/windows/outswing.png">
                 <p>Outswing</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/windows/pushout.png">
                 <p>Push-Out</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/windows/hung.jpg">
                 <p>Hung</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/windows/fixed.jpg">
                 <p>Fixed</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/windows/specialty.jpg">
                 <p>Specialty</p>
             </a>
         </nav>
         <!-- sub menu doors -->
-        <nav class="sub-menu sub-menu__2 justify-content-center p-4 text-center d-none">
-            <a href="#!" class="mx-4">
+        <nav class="sub-menu sub-menu__2 justify-content-start justify-content-md-center p-4 text-center d-none">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/doors/door-1.jpg">
                 <p>Door 1</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/doors/door-2.jpg">
                 <p>Door 2</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/doors/contemporary.jpg">
                 <p>Door 3</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/doors/sliding.jpg">
                 <p>Door 4</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/doors/specialty.jpg">
                 <p>Door 5</p>
             </a>
-            <a href="#!" class="mx-4">
+            <a href="#!" class="px-4">
                 <img class="nav-img" src="img/doors/garage.jpg">
                 <p>Door 6</p>
             </a>
@@ -87,37 +89,39 @@
         <!-- search box  -->
         <div class="search-box d-none">
             <div class="container">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search Solii products..." aria-label="Search products" aria-describedby="search-products">
+                <div class="input-group" id="searchStuff">
+                    <input type="text" class="typeahead form-control" placeholder="Search Solii products..." aria-label="Search products" aria-describedby="search-products" id="autocomplete-example">
                     <a class="close-search mr-4" id="hideSearch"><i class="fal fa-times fa-2x"></i></a>
                 </div>
             </div>
         </div>
+        <div class="scrim d-none"></div>
+
     </nav>
 
     <main>
         <!-- jumbotron area-->
         <section class="intro">
-            <div class="p-3 p-md-5 text-center bg-light overflow-hidden position-relative">
-                <div class="col-md-5 p-md-5 mx-auto my-5" style="z-index:2;">
-                    <h1 class=" font-weight-normal text-uppercase">Artisanal</h1>
-                    <h2 class="h5 text-uppercase">Windows &amp; Doors</h2>
-                    <a class="btn btn-dark bg-darker" href="#!">Get a custom quote</a>
+            <div class="p-3 p-md-5 text-center bg-light overflow-hidden position-relative d-flex">
+                <div class="p-md-5 mx-auto my-5 jumbotron-specs">
+                    <h1 class="display-3 text-uppercase mb-4 darker">Artisanal</h1>
+                    <h2 class="h3 text-uppercase mb-4 darker">Windows &amp; Doors</h2>
+                    <a class="btn btn-dark bg-darker border-light btn-shadow" href="mailto:robert@solii.ca">Get a custom quote</a>
                 </div>
-                <img src="./img/jumbotron.jpg" style="position:absolute;right:0;top:-100px;z-index:0;object-fit: cover;height:100vh;width:100%;">
+                <img class="img-jumbotron" src="./img/jumbotron.jpg">
             </div>
         </section>
 
         <!-- Select style section -->
         <section class="classic-vs-modern">
             <div class="d-md-flex flex-md-equal p-3">
-                <div class="pr-md-2">
+                <div class="pr-md-2 mb-3 mb-md-0">
                     <img class="w-100" src="img/classic.jpg" style="object-fit: cover;height:240px;">
                     <div class="bg-beige text-left darker">
                         <div class="p-5">
                             <h2 class="display-5 text-uppercase">Classic<br> Traditional</h2>
                             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a class="btn btn-dark bg-darker" style="border-radius: 0" href="#!" data-toggle="modal" data-target="#classicStyle">Classic Style</a>
+                            <a class="btn btn-dark bg-darker btn-shadow" style="border-radius: 0" href="#!" data-toggle="modal" data-target="#classicStyle">Classic Style</a>
                         </div>
                     </div>
                 </div>
@@ -218,9 +222,9 @@
         <!-- Made in Canada Section-->
         <section class="made-in-canada">
             <div class="px-3 mb-3">
-                <div class="py-5 d-flex justify-content-center text-center" style="background-color: #E3E3E0">
-                    <div class="p-md-5 w-75">
-                        <h2 class="text-uppercase">Made in Canada</h2>
+                <div class="py-5 d-flex justify-content-center text-center video-section">
+                    <div class="p-md-5 w-75 darker">
+                        <h2 class="display-4 text-uppercase">Made in Canada</h2>
                         <p class="my-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi explicabo illum ad tenetur quaerat perspiciatis quidem minus fugit, quos aperiam aut beatae possimus odit ipsam suscipit. Atque temporibus nisi harum!</p>
                         <div class="embed-responsive embed-responsive-16by9 video-shadow">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ERd9v_3KPuQ" allowfullscreen></iframe>
@@ -237,7 +241,7 @@
                     <div class="col-md-6 order-md-2 px-0">
                         <img class="" style="width:100%;height:440px;object-fit: cover" src="./img/featurette-1.png">
                     </div>
-                    <div class="col-md-6 d-flex flex-column p-5">
+                    <div class="col-md-6 d-flex flex-column p-5 d-flex flex-column justify-content-center darker">
                         <h2 class="text-uppercase">The First Impression</h2>
                         <p>You have finished building your own website. You have introduced your company and presented your products and services. You have added propositions and promos to catch your target audience’s attention. You think you are doing. everything “right”, but all your promotions have failed to produce growth in your new internet business.</p>
                     </div>
@@ -252,8 +256,8 @@
                     <div class="col-md-6 px-0">
                         <img class="w-100" style="height:440px;object-fit: cover" src="./img/featurette-2.jpg">
                     </div>
-                    <div class="col-md-6 d-flex flex-column p-5 order-md-2">
-                        <h2 class="text-uppercase">Architects Rejoice</h2>
+                    <div class="col-md-6 d-flex flex-column p-5 d-flex flex-column justify-content-center">
+                        <h2 class="text-uppercase darker">Architects Rejoice</h2>
                         <p>You have finished building your own website. You have introduced your company and presented your products and services. You have added propositions and promos to catch your target audience’s attention. You think you are doing. everything “right”, but all your promotions have failed to produce growth in your new internet business.</p>
                     </div>
                 </div>
@@ -263,10 +267,10 @@
         <!-- final CTA -->
         <section class="pre-footer">
             <div class="container-fluid p-5 text-light d-flex justify-content-center" style="background-color:#181918">
-                <div class="w-75 text-center">
-                    <h2 class="text-uppercase">Designed by You.</h2>
-                    <p>Crafed by Belisle and Dionne.</p>
-                    <a class="btn btn-outline-light" href="#!">Modern Style</a>
+                <div class="w-75 text-center p-5">
+                    <h2 class="text-uppercase mb-3">Designed by You.</h2>
+                    <p class="mb-4">Crafed by Belisle and Dionne.</p>
+                    <a class="btn btn-outline-light btn-shadow" href="mailto:robert@solii.ca">Get a custom quote</a>
                 </div>
             </div>
         </section>
@@ -280,34 +284,34 @@
                 <div class="col-12 col-md">
                     <img class="d-none d-md-block mt-md-2" src="./img/logo-solii-full.svg" style="width:120px">
                     <ul class="list-unstyled mt-3">
-                        <li> Robert Hardy, Sales</li>
-                        <li>+1.613.739.7696</li>
-                        <li>robert@solii.ca</li>
+                        <li class="text-muted">Robert Hardy, Sales</li>
+                        <li><a class="text-muted" href="tel:16137397696">+1.613.739.7696</a></li>
+                        <li><a class="text-muted" href="mailto:robert@solii.ca">robert@solii.ca</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md d-none d-md-block">
-                    <h5>Windows</h5>
+                    <h5 class="text-uppercase">Windows</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Classic</a></li>
                         <li><a class="text-muted" href="#">Modern</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md d-none d-md-block">
-                    <h5>Doors</h5>
+                    <h5 class="text-uppercase">Doors</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">Classic</a></li>
                         <li><a class="text-muted" href="#">Modern</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md d-none d-md-block">
-                    <h5>Company</h5>
+                    <h5 class="text-uppercase">Company</h5>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-muted" href="#">About</a></li>
                         <li><a class="text-muted" href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-12">
-                    <hr>
+                    <hr style="border-bottom: 1px solid #333">
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <small class="d-block mt-3 text-muted">&copy; Copyright 2018 Solii</small>
                         <small class="d-block mt-3 text-muted"><a href="#!">Privacy</a> | <a href="#!">Terms</a> | <a href="#!">Sitemap</a></small>
@@ -351,6 +355,8 @@
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/typeahead.js"></script>
+    <script src="./js/handlebars.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
 

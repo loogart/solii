@@ -1,7 +1,9 @@
 :root {
     --darker: #0B0B09;
     --beige: #D29D81;
+    --shadow-btn: 0 15px 30px 0 rgba(0,0,0,0.34);
 }
+
 
 @font-face {
     font-family: 'Alte-DIN-1451-Mittelschrift';
@@ -33,6 +35,7 @@ a {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 
 .container {
     max-width: 960px;
@@ -106,6 +109,8 @@ nav.sub-menu {
     min-height: 100px;
     background-color: #fff;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    overflow: auto;
+    white-space: nowrap;
 }
 
 .nav-img {
@@ -121,6 +126,19 @@ nav.sub-menu p {
 nav.sub-menu a:hover {
     color: #000;
 }
+
+
+.img-jumbotron {
+    position: absolute;
+    right: 0;
+    top: -250px;
+    z-index: 0;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(1.3) contrast(0.7)
+}
+
 
 .video-shadow {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
@@ -147,20 +165,34 @@ nav.sub-menu a:hover {
     top: 0;
     right: 0;
     width: 100%;
+    background-color: rgba(0, 0, 0, .9);
 }
+
+.search-box .container {
+    background-color: #222;
+}
+
+
 
 .search-box .form-control {
     width: 100%;
-    height: ;
+    height: 72px;
     padding: 1.47rem 2rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #fff;
-    background-color: #333;
+    color: transparent;
+    background-color: #222;
     background-clip: inherit;
     border: 0px solid transparent;
     border-radius: 0;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.search-box .form-control:focus {
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+
 }
 
 small a {
@@ -180,6 +212,138 @@ a.close-search {
     background-color: transparent;
     border: 0 width:auto;
     height: auto;
-    z-index:1000;
-    padding-top:12px;
+    z-index: 1000;
+    padding-top: 12px;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+/* typehead css */
+
+/* base styles */
+
+/* ----------- */
+
+.typeahead,
+.tt-query,
+.tt-hint {
+    width: 396px;
+    height: 30px;
+    padding: 1.47rem 2rem;
+    font-size: 24px;
+    line-height: 30px;
+    border: 0px solid #ccc;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+.typeahead {
+    background-color: #fff;
+}
+
+.typeahead:focus {
+    border: 2px solid #000;
+    color: #fff;
+}
+
+.tt-query {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+    color: #999
+}
+
+.tt-menu {
+    width: 50vh;
+    margin-left: -15px;
+    padding: 0;
+    background-color: #fff;
+    border: 0 solid #ccc;
+    border: 0 solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.tt-suggestion {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 24px;
+    margin: 0;
+}
+
+.tt-suggestion:hover {
+    cursor: pointer;
+    color: var(--darker);
+    background-color: #e8e8e8;
+}
+
+.tt-suggestion.tt-cursor {
+    color: var(--darker);
+    background-color: #e8e8e8;
+}
+
+a.tt-suggestion {
+    color: var(--dark);
+    padding: 20px;
+    display: block;
+}
+
+a.tt-suggestion:hover {
+    color: var(--dark);
+}
+
+
+.scrim {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+}
+
+.empty-message {
+    padding: 1rem;
+}
+
+.empty-message p {
+    margin: 0;
+}
+
+
+.jumbotron-specs {
+    z-index:1;
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-shadow{
+    box-shadow: var(--shadow-btn)
+}
+.video-section {
+    background-color: #E3E3E0;
+    background-image: url('../img/logomark-solii.svg');
+    background-repeat: no-repeat;
+    background-position: 120% 50%;
+    background-size: 420px;
 }
