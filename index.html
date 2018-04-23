@@ -17,20 +17,16 @@
 <body>
 
     <!-- main navigation -->
-    <nav class="site-header sticky-top py-1">
+    <nav class="site-header sticky-top">
         <div class="container d-flex flex-row justify-content-between text-uppercase scrollmenu">
             <a class="p-3" href="#">
               <img class="nav-logo mt-md-" src="./img/logo-solii-short.svg">
             </a>
-            <a class="p-3" href="#!" id="showWindows">Windows</a>
-            <a class="p-3" href="#!" id="showDoors">Doors</a>
-            <a class="p-3" href="#!">About</a>
-            <a class="p-3" href="#!">Contact</a>
+            <a class="p-3 site-header-item" href="#!" id="showWindows">Windows</a>
+            <a class="p-3 site-header-item" href="#!" id="showDoors">Doors</a>
+            <a class="p-3 site-header-item" href="#!">About</a>
+            <a class="p-3 site-header-item" href="#!">Contact</a>
             <a class="p-3" href="#!" id="showSearch"><i class="fa fa-search"></i> Search</a>
-            <!--
-            <a class="py-4 d-line-block d-md-none" href="#!" style="position:absolute;top:0;right:20px;">    <i class="fal fa-bars fa-2x"></i>
-            </a>
--->
         </div>
         <!-- sub menu windows -->
         <nav class="sub-menu sub-menu__1 justify-content-start justify-content-md-center p-4 text-center d-none">
@@ -96,15 +92,94 @@
             </div>
         </div>
         <div class="scrim d-none"></div>
-
     </nav>
+
+    <!-- modal classic -->
+    <div class="modal fade" id="classicStyle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Classic Style</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <h4>Windows</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#!">Inswing</a></li>
+                                    <li><a href="#!">Outswing</a></li>
+                                    <li><a href="#!">Push-out</a></li>
+                                    <li><a href="#!">Hung</a></li>
+                                    <li><a href="#!">Specialty</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <h4>Windows</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#!">Inswing</a></li>
+                                    <li><a href="#!">Outswing</a></li>
+                                    <li><a href="#!">Push-out</a></li>
+                                    <li><a href="#!">Hung</a></li>
+                                    <li><a href="#!">Specialty</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal modern -->
+    <div class="modal fade" id="modernStyle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Modern Style</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <h4>Windows</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#!">Inswing</a></li>
+                                    <li><a href="#!">Outswing</a></li>
+                                    <li><a href="#!">Push-out</a></li>
+                                    <li><a href="#!">Hung</a></li>
+                                    <li><a href="#!">Specialty</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <h4>Windows</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#!">Inswing</a></li>
+                                    <li><a href="#!">Outswing</a></li>
+                                    <li><a href="#!">Push-out</a></li>
+                                    <li><a href="#!">Hung</a></li>
+                                    <li><a href="#!">Specialty</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <main>
         <!-- jumbotron area-->
         <section class="intro">
             <div class="p-3 p-md-5 text-center bg-light overflow-hidden position-relative d-flex">
                 <div class="p-md-5 mx-auto my-5 jumbotron-specs">
-                    <h1 class="display-3 text-uppercase mb-4 darker">Artisanal</h1>
+                    <h1 class="display-4 text-uppercase mb-4 darker">Artisanal</h1>
                     <h2 class="h3 text-uppercase mb-4 darker">Windows &amp; Doors</h2>
                     <a class="btn btn-dark bg-darker border-light btn-shadow" href="mailto:robert@solii.ca">Get a custom quote</a>
                 </div>
@@ -116,7 +191,7 @@
         <section class="classic-vs-modern">
             <div class="d-md-flex flex-md-equal p-3">
                 <div class="pr-md-2 mb-3 mb-md-0">
-                    <img class="w-100" src="img/classic.jpg" style="object-fit: cover;height:240px;">
+                    <img class="w-100 img-style" src="img/classic.jpg">
                     <div class="bg-beige text-left darker">
                         <div class="p-5">
                             <h2 class="display-5 text-uppercase">Classic<br> Traditional</h2>
@@ -127,7 +202,7 @@
                 </div>
 
                 <div class="pl-md-2">
-                    <img class="w-100" src="img/modern.png" style="object-fit: cover;height:240px;">
+                    <img class="w-100 img-style" src="img/modern.png">
                     <div class="bg-darker text-left text-light">
                         <div class="p-5">
                             <h2 class="display-5 text-uppercase">Sleek<br> Modern</h2>
@@ -139,92 +214,12 @@
             </div>
         </section>
 
-        <!-- modal classic -->
-        <div class="modal fade" id="classicStyle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Classic Style</h3>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h4>Windows</h4>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#!">Inswing</a></li>
-                                        <li><a href="#!">Outswing</a></li>
-                                        <li><a href="#!">Push-out</a></li>
-                                        <li><a href="#!">Hung</a></li>
-                                        <li><a href="#!">Specialty</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-6">
-                                    <h4>Windows</h4>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#!">Inswing</a></li>
-                                        <li><a href="#!">Outswing</a></li>
-                                        <li><a href="#!">Push-out</a></li>
-                                        <li><a href="#!">Hung</a></li>
-                                        <li><a href="#!">Specialty</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- modal modern -->
-        <div class="modal fade" id="modernStyle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3>Modern Style</h3>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-6">
-                                    <h4>Windows</h4>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#!">Inswing</a></li>
-                                        <li><a href="#!">Outswing</a></li>
-                                        <li><a href="#!">Push-out</a></li>
-                                        <li><a href="#!">Hung</a></li>
-                                        <li><a href="#!">Specialty</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-6">
-                                    <h4>Windows</h4>
-                                    <ul class="list-unstyled">
-                                        <li><a href="#!">Inswing</a></li>
-                                        <li><a href="#!">Outswing</a></li>
-                                        <li><a href="#!">Push-out</a></li>
-                                        <li><a href="#!">Hung</a></li>
-                                        <li><a href="#!">Specialty</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Made in Canada Section-->
         <section class="made-in-canada">
             <div class="px-3 mb-3">
                 <div class="py-5 d-flex justify-content-center text-center video-section">
                     <div class="p-md-5 w-75 darker">
-                        <h2 class="display-4 text-uppercase">Made in Canada</h2>
+                        <h2 class="display-5 text-uppercase">Made in Canada</h2>
                         <p class="my-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi explicabo illum ad tenetur quaerat perspiciatis quidem minus fugit, quos aperiam aut beatae possimus odit ipsam suscipit. Atque temporibus nisi harum!</p>
                         <div class="embed-responsive embed-responsive-16by9 video-shadow">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ERd9v_3KPuQ" allowfullscreen></iframe>
@@ -267,8 +262,8 @@
         <!-- final CTA -->
         <section class="pre-footer">
             <div class="container-fluid p-5 text-light d-flex justify-content-center" style="background-color:#181918">
-                <div class="w-75 text-center p-5">
-                    <h2 class="text-uppercase mb-3">Designed by You.</h2>
+                <div class="text-center p-md-5">
+                    <h3 class="text-uppercase mb-3">Designed by You.</h3>
                     <p class="mb-4">Crafed by Belisle and Dionne.</p>
                     <a class="btn btn-outline-light btn-shadow" href="mailto:robert@solii.ca">Get a custom quote</a>
                 </div>
@@ -283,39 +278,37 @@
             <div class="row">
                 <div class="col-12 col-md">
                     <img class="d-none d-md-block mt-md-2" src="./img/logo-solii-full.svg" style="width:120px">
-                    <ul class="list-unstyled mt-3">
-                        <li class="text-muted">Robert Hardy, Sales</li>
-                        <li><a class="text-muted" href="tel:16137397696">+1.613.739.7696</a></li>
-                        <li><a class="text-muted" href="mailto:robert@solii.ca">robert@solii.ca</a></li>
+                    <ul class="list-unstyled mt-4">
+                        <li class="text-white">Robert Hardy, Sales</li>
+                        <li><a class="text-white" href="tel:16137397696">+1.613.739.7696</a></li>
+                        <li><a class="text-white" href="mailto:robert@solii.ca">robert@solii.ca</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md d-none d-md-block">
-                    <h5 class="text-uppercase">Windows</h5>
+                    <h6 class="text-uppercase text-muted mb-3">Windows</h6>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Classic</a></li>
-                        <li><a class="text-muted" href="#">Modern</a></li>
+                        <li><a class="text-white" href="#">Classic</a></li>
+                        <li><a class="text-white" href="#">Modern</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md d-none d-md-block">
-                    <h5 class="text-uppercase">Doors</h5>
+                    <h6 class="text-uppercase text-muted mb-3">Doors</h6>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">Classic</a></li>
-                        <li><a class="text-muted" href="#">Modern</a></li>
+                        <li><a class="text-white" href="#">Classic</a></li>
+                        <li><a class="text-white" href="#">Modern</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-md d-none d-md-block">
-                    <h5 class="text-uppercase">Company</h5>
+                    <h6 class="text-uppercase text-muted mb-3">Company</h6>
                     <ul class="list-unstyled text-small">
-                        <li><a class="text-muted" href="#">About</a></li>
-                        <li><a class="text-muted" href="#">Contact</a></li>
+                        <li><a class="text-white" href="#">About</a></li>
+                        <li><a class="text-white" href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-12">
                     <hr style="border-bottom: 1px solid #333">
                     <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <small class="d-block mt-3 text-muted">&copy; Copyright 2018 Solii</small>
-                        <small class="d-block mt-3 text-muted"><a href="#!">Privacy</a> | <a href="#!">Terms</a> | <a href="#!">Sitemap</a></small>
-                        <small class="d-block mt-3 text-muted">
+                        <small class="d-block mt-3 text-muted order-md-3">
                             <ul class="list-inline">
                                 <li class="list-inline-item ml-2">
                                     <a href="#!">
@@ -344,7 +337,8 @@
                                 </li>
                             </ul>
                         </small>
-                    </div>
+                        <small class="d-block mt-3 text-muted order-md-2"><a href="#!">Privacy</a> | <a href="#!">Terms</a> | <a href="#!">Sitemap</a></small>
+                        <small class="d-block mt-3 text-muted order-md-1">&copy; Copyright 2018 Solii</small> </div>
 
                 </div>
             </div>

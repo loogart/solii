@@ -2,25 +2,38 @@ $(document).ready(function () {
     $("#showWindows").click(function () {
         $("nav.sub-menu__1").toggleClass("d-flex");
         $("nav.sub-menu__2").removeClass("d-flex");
+        $(this).toggleClass("active");
+        $("#showDoors").removeClass("active");
     });
     $("#showDoors").click(function () {
         $("nav.sub-menu__2").toggleClass("d-flex");
         $("nav.sub-menu__1").removeClass("d-flex");
+        $(this).toggleClass("active");
+        $("#showWindows").removeClass("active");
     });
     $("#showSearch").click(function () {
         $(".search-box").toggleClass("d-flex");
         $(".search-box input").focus();
+        $("nav.sub-menu__1").removeClass("d-flex");
+        $("nav.sub-menu__2").removeClass("d-flex");
+        $("#showDoors").removeClass("active");
+        $("#showWindows").removeClass("active");
         $(".scrim").toggleClass("d-flex");
-
     });
     $("#hideSearch").click(function () {
         $(".search-box").removeClass("d-flex");
         $(".scrim").toggleClass("d-flex");
+        $(".search-box input").blur();
     });
 
     $(".scrim").click(function () {
         $(".search-box").removeClass("d-flex");
-        $(".scrim").toggleClass("d-flex");
+        $("nav.sub-menu__1").removeClass("d-flex");
+        $("nav.sub-menu__2").removeClass("d-flex");  
+        $("#showWindows").removeClass("active");
+        $("#showDoors").removeClass("active");
+        $(this).toggleClass("d-flex");
+        $(".search-box input").blur();
     });
 
 });
