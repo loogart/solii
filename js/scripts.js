@@ -25,11 +25,10 @@ $(document).ready(function () {
         $(".scrim").toggleClass("d-flex");
         $(".search-box input").blur();
     });
-
     $(".scrim").click(function () {
         $(".search-box").removeClass("d-flex");
         $("nav.sub-menu__1").removeClass("d-flex");
-        $("nav.sub-menu__2").removeClass("d-flex");  
+        $("nav.sub-menu__2").removeClass("d-flex");
         $("#showWindows").removeClass("active");
         $("#showDoors").removeClass("active");
         $(this).toggleClass("d-flex");
@@ -47,27 +46,64 @@ $(document).on('keydown', function (e) {
     }
 });
 
+$(document).scroll(function () {
+    $("nav.sub-menu__1").removeClass("d-flex");
+    $("nav.sub-menu__2").removeClass("d-flex");
+    $("#showWindows").removeClass("active");
+    $("#showDoors").removeClass("active");
+});
+
 // typeahead
-var links = [{
+var links = [
+    {
         name: "Inswing Windows",
-        link: "http://loogart.com"
+        link: "./product.html"
         },
     {
         name: "Outswing Windows",
-        link: "http://loogart.com"
+        link: "./product.html"
         },
     {
-        name: "Loogart",
-        link: "http://loogart.com"
+        name: "Push-Out Windows",
+        link: "./product.html"
         },
     {
-        name: "Loogart Design",
-        link: "http://loogart.com"
+        name: "Hung Windows",
+        link: "./product.html"
         },
     {
-        name: "Doors",
-        link: "#!"
-}];
+        name: "Single Windows",
+        link: "./product.html"
+    },
+    {
+        name: "Specialty Windows",
+        link: "./product.html"
+    },
+    {
+        name: "Single Doors",
+        link: "./product.html"
+        },
+    {
+        name: "French Doors",
+        link: "./product.html"
+        },
+    {
+        name: "Contemporary Doors",
+        link: "./product.html"
+        },
+    {
+        name: "Lift and Slide Doors",
+        link: "./product.html"
+        },
+    {
+        name: "Garage Doors",
+        link: "./product.html"
+    },
+    {
+        name: "Specialty Doors",
+        link: "./product.html"
+    }
+];
 
 var source = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
