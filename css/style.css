@@ -1,7 +1,7 @@
 :root {
     --darker: #0B0B09;
     --beige: #D29D81;
-    --shadow-btn: 0 15px 30px 0 rgba(0,0,0,0.34);
+    --shadow-btn: 0 15px 30px 0 rgba(0, 0, 0, 0.34);
 }
 
 
@@ -63,8 +63,12 @@ a {
     text-decoration: none;
 }
 
-.site-header a.active{
+.site-header a.active {
     color: #fff;
+}
+
+.sub-menu a.active p {
+    color: #111;
 }
 
 
@@ -115,7 +119,7 @@ nav.sub-menu {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
     overflow: auto;
     white-space: nowrap;
-    z-index:900;
+    z-index: 900;
 }
 
 .nav-img {
@@ -136,7 +140,7 @@ nav.sub-menu a:hover {
 .img-jumbotron {
     position: absolute;
     right: 0;
-    top: -250px;
+    top: -69px;
     z-index: 0;
     object-fit: cover;
     height: 100vh;
@@ -246,7 +250,7 @@ a.close-search {
     -moz-border-radius: 0;
     border-radius: 0;
     outline: none;
-        caret-color: transparent;
+    caret-color: transparent;
 
 }
 
@@ -335,8 +339,8 @@ a.tt-suggestion:hover {
 
 
 .jumbotron-specs {
-    z-index:1;
-    height:40vh;
+    z-index: 1;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -345,13 +349,14 @@ a.tt-suggestion:hover {
 
 .img-style {
     object-fit: cover;
-    height:260px;
+    height: 260px;
 }
 
 
-.btn-shadow{
+.btn-shadow {
     box-shadow: var(--shadow-btn)
 }
+
 .video-section {
     background-color: #E3E3E0;
     background-image: url('../img/logomark-solii.svg');
@@ -360,8 +365,18 @@ a.tt-suggestion:hover {
     background-size: 420px;
 }
 
-footer a{
+footer a {
     font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
+}
+
+.modal-classic .modal-header,
+.modal-modern .modal-header {
+    border-bottom: 1px solid transparent;
+}
+
+.modal-classic .modal-footer,
+.modal-modern .modal-footer {
+    border-top: 1px solid transparent;
 }
