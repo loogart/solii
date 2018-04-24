@@ -5,6 +5,7 @@
 }
 
 
+/*
 @font-face {
     font-family: 'Alte-DIN-1451-Mittelschrift';
     src: url('../fonts/Alte-DIN-1451-Mittelschrift.ttf.woff') format('woff'),
@@ -14,6 +15,9 @@
     font-weight: normal;
     font-style: normal;
 }
+*/
+
+@import url("https://use.typekit.net/nyd5qdd.css");
 
 h1,
 h2,
@@ -22,8 +26,9 @@ h4,
 h5,
 h6,
 a {
-    font-family: 'Alte-DIN-1451-Mittelschrift', sans-serif;
-    letter-spacing: 3px;
+/*    font-family: 'Alte-DIN-1451-Mittelschrift', sans-serif;*/
+    font-family: "din-2014",sans-serif;
+    letter-spacing: 2px;
 }
 
 .container {
