@@ -26,8 +26,8 @@ h4,
 h5,
 h6,
 a {
-/*    font-family: 'Alte-DIN-1451-Mittelschrift', sans-serif;*/
-    font-family: "din-2014",sans-serif;
+    /*    font-family: 'Alte-DIN-1451-Mittelschrift', sans-serif;*/
+    font-family: "din-2014", sans-serif;
     letter-spacing: 2px;
 }
 
@@ -423,7 +423,7 @@ a.tt-suggestion:hover {
     border: 0 solid transparent;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    padding:1rem;
+    padding: 1rem;
 }
 
 .download-links li a {
@@ -462,11 +462,16 @@ a.tt-suggestion:hover {
         top: 80px;
         height: 100vh;
     }
-    .product-info  .nav-tabs{
+    .product-info .nav-tabs {
         position: -webkit-sticky;
         position: sticky;
         top: 64px;
         background-color: #fff;
     }
-    
+    .intro h1 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
 }
