@@ -341,7 +341,7 @@ footer a {
 }
 
 .tt-menu {
-    width: 50vh;
+    width: 5lo0vh;
     margin-left: -15px;
     padding: 0;
     background-color: #fff;
@@ -410,6 +410,13 @@ a.tt-suggestion:hover {
     object-position: bottom;
 }
 
+.about-jumbotron {
+    height: 269px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
     color: var(--darker);
@@ -443,7 +450,7 @@ a.tt-suggestion:hover {
     right: 0;
     width: 100%;
     min-height: 72px;
-    z-index: 3;
+    z-index: 4;
     background-color: #fff;
     box-shadow: 0 -6px 10px 0 rgba(0, 0, 0, 0.12);
 }
@@ -467,6 +474,7 @@ a.tt-suggestion:hover {
         position: sticky;
         top: 64px;
         background-color: #fff;
+        z-index:3;
     }
     .intro h1 {
         font-size: 3.5rem;
@@ -475,3 +483,11 @@ a.tt-suggestion:hover {
     }
 
 }
+
+.certification-logo {
+    height:40px;
+    margin-right:1rem;
+    margin-bottom:0.5rem;
+}
+
+

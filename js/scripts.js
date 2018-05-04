@@ -11,6 +11,8 @@ $(document).ready(function () {
         $(this).toggleClass("active");
         $("#showWindows").removeClass("active");
     });
+    
+    // Search UI
     $("#showSearch").click(function () {
         $(".search-box").toggleClass("d-flex");
         $(".search-box input").focus();
@@ -34,24 +36,59 @@ $(document).ready(function () {
         $(this).toggleClass("d-flex");
         $(".search-box input").blur();
     });
-
-});
-//Hit escape to exit
-$(document).on('keydown', function (e) {
-    if (e.keyCode === 27) {
-        $(".search-box").removeClass("d-flex");
-        $(".scrim").removeClass("d-flex");
+    
+    // Product page CTA UI visibility
+    $(window).scroll(function () {
+        if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+            $(".get-a-quote").addClass("d-none")
+        } else {
+            $(".get-a-quote").removeClass("d-none")
+        }
+    });
+    $(document).on('keydown', function (e) {
+        if (e.keyCode === 27) {
+            $(".search-box").removeClass("d-flex");
+            $(".scrim").removeClass("d-flex");
+            $("nav.sub-menu__1").removeClass("d-flex");
+            $("nav.sub-menu__2").removeClass("d-flex");
+        }
+    });
+    //on scroll remove sub nav
+    $(document).scroll(function () {
         $("nav.sub-menu__1").removeClass("d-flex");
         $("nav.sub-menu__2").removeClass("d-flex");
-    }
+        $("#showWindows").removeClass("active");
+        $("#showDoors").removeClass("active");
+    });
+    
+    //lightbox for products
+    $(".product-images").magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        // other options
+        gallery: {
+            enabled: true
+        },
+        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+        zoom: {
+            enabled: true, // By default it's false, so don't forget to enable it
+
+            duration: 250, // duration of the effect, in milliseconds
+            easing: 'ease-in-out', // CSS transition easing function
+
+            // The "opener" function should return the element from which popup will be zoomed in
+            // and to which popup will be scaled down
+            // By default it looks for an image tag:
+            opener: function (openerElement) {
+                // openerElement is the element on which popup was initialized, in this case its <a> tag
+                // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+                return openerElement.is('img') ? openerElement : openerElement.find('img');
+            }
+        }
+    });
+    
 });
 
-$(document).scroll(function () {
-    $("nav.sub-menu__1").removeClass("d-flex");
-    $("nav.sub-menu__2").removeClass("d-flex");
-    $("#showWindows").removeClass("active");
-    $("#showDoors").removeClass("active");
-});
 
 // typeahead
 var links = [

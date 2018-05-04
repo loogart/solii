@@ -10,8 +10,25 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="./fonts/svg-with-js/js/fontawesome-all.js"></script>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/favicon.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Solii">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/favicon.png">
+    <meta name="msapplication-TileColor" content="#0B0B09">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="mask-icon" href="img/icons/safari-pinned-tab.svg" color="#0B0B09">
+    <meta name="theme-color" content="#0B0B09">
 
     <title>Solii Dev</title>
+
 </head>
 
 <body>
@@ -24,8 +41,8 @@
             </a>
             <a class="p-3 site-header-item" href="#!" id="showWindows">Windows</a>
             <a class="p-3 site-header-item" href="#!" id="showDoors">Doors</a>
-            <a class="p-3 site-header-item" href="#!">About</a>
-            <a class="p-3 site-header-item" href="#!">Contact</a>
+            <a class="p-3 site-header-item" href="./about.html">About</a>
+            <a class="p-3 site-header-item" href="./contact.html">Contact</a>
             <a class="p-3" href="#!" id="showSearch"><i class="fa fa-search"></i> Search</a>
         </div>
         <!-- sub menu windows -->
@@ -190,7 +207,7 @@
         </section>
 
     </main>
-    
+
     <!-- modal classic -->
     <section class="modal-classic">
         <div class="modal fade" id="classicStyle" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -309,6 +326,14 @@
                         <li><a class="text-white" href="#">Contact</a></li>
                     </ul>
                 </div>
+                <div class="col-12 d-flex justify-content-start flex-wrap">
+                    <img class="certification-logo" src="img/certifications/logo-energy-start.png">
+                    <img class="certification-logo" src="img/certifications/logo-aama.png">
+                    <img class="certification-logo" src="img/certifications/logo-fsc.jpg">
+                    <img class="certification-logo" src="img/certifications/logo-nfrc.png">
+                    <img class="certification-logo" src="img/certifications/logo-sa.gif">
+                    <img class="certification-logo" src="img/certifications/logo-wdma.bmp">
+                </div>
                 <div class="col-12">
                     <hr style="border-bottom: 1px solid #333">
                     <div class="d-flex flex-column flex-md-row justify-content-between">
@@ -354,6 +379,7 @@
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/typeahead.js"></script>
     <script src="./js/handlebars.js"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
     <script src="./js/scripts.js"></script>
 </body>
 
