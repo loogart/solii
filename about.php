@@ -22,9 +22,7 @@
                         <h2 class="py-3">Our Manufacturers</h2>
                         <img class="w-50" src="img/logo-belisle.svg">
                         <h3 class="h4">Belisle Architectural Windows and Doors</h3>
-                        <div class="d-flex">
                         <p>More than 45 years of specialized experience crafting luxury artisanal windows and doors yields an incomparable luxury product. Commissioned to produce heritage and custom windows and doors of some of the most iconic buildings in Canada and the United States, Belisle is known for an artisanal eye that creates a dynamic transition between interior and exterior spaces. Distinguished from its peers through age old techniques passed down through generations, each Belisle custom piece is made with painstaking precision. Solid wood construction and Energy Star efficient, traditional craftsmanship blends with 21st century innovation to produce one of a kind windows and doors for your next luxury project.</p>
-                        </div>
                         <img class="w-25 mt-4" src="img/logo-dionne.svg">
                         <h3 class="h4 mt-4">Dionne Architectural</h3>
                         <p>Sleek. Modern. You know the type. European hardware, high performance aluminium tilt and turn windows answer to contemporary design demands. Easily integrated to fit seamlessly into your architectural and building criteria, Dionne Windows are crafted with the highest attention to detail and a wide range functionalities. Energy Star Certified for optimal efficiency. Bring the outside in - your clients will love you for it.</p>

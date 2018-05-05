@@ -43,7 +43,7 @@ echo '
             </a>
         </nav>
         <!-- sub menu doors -->
-        <nav class="sub-menu sub-menu__2 justify-content-start justify-content-md-center pt-4 text-center d-none">
+        <nav class="sub-menu sub-menu__2 justify-content-start justify-content-lg-center pt-4 text-center d-none">
             <a href="./single-doors.php">
                 <img class="nav-img" src="img/doors/door-2.jpg">
                 <p>Single</p>

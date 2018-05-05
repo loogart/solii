@@ -159,7 +159,7 @@ echo '
                                 </li>
                             </ul>
                         </small>
-                        <small class="d-block mt-3 text-muted order-md-2"><a href="#!">Privacy</a> | <a href="#!">Terms</a> | <a href="#!">Sitemap</a></small>
+                        <small class="d-block mt-3 text-muted order-md-2"><a href="./privacy-policy.php">Privacy Policy</a></small>
                         <small class="d-block mt-3 text-muted order-md-1">&copy; Copyright 2018 Solii</small> </div>
 
                 </div>
