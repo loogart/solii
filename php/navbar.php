@@ -45,19 +45,19 @@ echo '
         <!-- sub menu doors -->
         <nav class="sub-menu sub-menu__2 justify-content-start justify-content-lg-center pt-4 text-center d-none">
             <a href="./single-doors.php">
-                <img class="nav-img" src="img/doors/door-2.jpg">
+                <img class="nav-img" src="img/doors/single.jpg">
                 <p>Single</p>
             </a>
             <a href="./french-doors.php">
-                <img class="nav-img" src="img/doors/door-1.jpg">
+                <img class="nav-img" src="img/doors/french.jpg">
                 <p>French</p>
             </a>
-            <a href="./list-and-slide-doors.php">
-                <img class="nav-img" src="img/doors/sliding.jpg">
+            <a href="./lift-and-slide-doors.php">
+                <img class="nav-img" src="img/doors/lift-slide.jpg">
                 <p>Lift &amp; Slide</p>
             </a>    
             <a href="./screens.php">
-                <img class="nav-img" src="img/doors/contemporary.jpg">
+                <img class="nav-img" src="img/doors/screen.jpg">
                 <p>Screen</p>
             </a>
             <a href="./specialty-doors.php">
@@ -68,16 +68,16 @@ echo '
                 <img class="nav-img" src="img/doors/garage.jpg">
                 <p>Garage</p>
             </a>            
-            <a href="./contemporary-wood-doors.php">
+            <a href="./contemporary-doors.php">
                 <img class="nav-img" src="img/doors/contemporary.jpg">
                 <p>Contemporary</p>
             </a>
             <a href="./tilt-and-turn-doors.php">
-                <img class="nav-img" src="img/doors/contemporary.jpg">
+                <img class="nav-img" src="img/doors/tilt-turn.jpg">
                 <p>Tilt-Turn</p>
             </a>
-            <a href="./contemporary-wood-doors.php">
-                <img class="nav-img" src="img/doors/contemporary.jpg">
+            <a href="./steel-doors.php">
+                <img class="nav-img" src="img/doors/steel.jpg">
                 <p>Steel Door</p>
             </a>
         </nav>
