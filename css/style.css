@@ -341,7 +341,7 @@ footer a {
 }
 
 .tt-menu {
-    width: 5lo0vh;
+    width: 50vw;
     margin-left: -15px;
     padding: 0;
     background-color: #fff;
@@ -353,6 +353,12 @@ footer a {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+@media (max-width:767px){
+    .tt-menu {
+    width: 100vw;
+    }
 }
 
 .tt-suggestion {
