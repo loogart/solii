@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    //navbar active states
+    var loc = window.location.href; // returns the full URL
+    if (/about/.test(loc)) {
+        $("#aboutPage").addClass("active");
+    } else if (/contact/.test(loc)) {
+        $("#contactPage").addClass("active");
+    }
+    //sub navbar
     $("#showWindows").click(function () {
         $("nav.sub-menu__1").toggleClass("d-flex");
         $("nav.sub-menu__2").removeClass("d-flex");
