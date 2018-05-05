@@ -13,56 +13,72 @@ echo '
         </div>
         <!-- sub menu windows -->
         <nav class="sub-menu sub-menu__1 justify-content-start justify-content-md-center pt-4 text-center d-none">
-            <a href="./product.php">
+            <a href="./inswing-windows.php">
                 <img class="nav-img" src="img/windows/inswing.jpg">
                 <p>Inswing</p>
             </a>
-            <a href="./product.php">
+            <a href="./outswing-windows.php">
                 <img class="nav-img" src="img/windows/outswing.png">
                 <p>Outswing</p>
             </a>
-            <a href="./product.php">
+            <a href="./pushout-windows.php">
                 <img class="nav-img" src="img/windows/pushout.png">
                 <p>Push-Out</p>
             </a>
-            <a href="./product.php">
+            <a href="./hung-windows.php">
                 <img class="nav-img" src="img/windows/hung.jpg">
                 <p>Hung</p>
             </a>
-            <a href="./product.php">
+            <a href="./fixed-windows.php">
                 <img class="nav-img" src="img/windows/fixed.jpg">
                 <p>Fixed</p>
             </a>
-            <a href="./product.php">
+            <a href="./specialty-windows.php">
                 <img class="nav-img" src="img/windows/specialty.jpg">
                 <p>Specialty</p>
+            </a>
+            <a href="./tilt-turn-windows.php">
+                <img class="nav-img" src="img/windows/tilt-turn.jpg">
+                <p>Til-Turn</p>
             </a>
         </nav>
         <!-- sub menu doors -->
         <nav class="sub-menu sub-menu__2 justify-content-start justify-content-md-center pt-4 text-center d-none">
-            <a href="./product.php">
+            <a href="./single-doors.php">
                 <img class="nav-img" src="img/doors/door-2.jpg">
                 <p>Single</p>
             </a>
-            <a href="./product.php">
+            <a href="./french-doors.php">
                 <img class="nav-img" src="img/doors/door-1.jpg">
                 <p>French</p>
             </a>
-            <a href="./product.php">
+            <a href="./list-and-slide-doors.php">
+                <img class="nav-img" src="img/doors/sliding.jpg">
+                <p>Lift &amp; Slide</p>
+            </a>    
+            <a href="./screens.php">
+                <img class="nav-img" src="img/doors/contemporary.jpg">
+                <p>Screen</p>
+            </a>
+            <a href="./specialty-doors.php">
+                <img class="nav-img" src="img/doors/specialty.jpg">
+                <p>Specialty</p>
+            </a>
+            <a href="./garage-doors.php">
+                <img class="nav-img" src="img/doors/garage.jpg">
+                <p>Garage</p>
+            </a>            
+            <a href="./contemporary-wood-doors.php">
                 <img class="nav-img" src="img/doors/contemporary.jpg">
                 <p>Contemporary</p>
             </a>
-            <a href="./product.php">
-                <img class="nav-img" src="img/doors/sliding.jpg">
-                <p>Lift and Slide</p>
+            <a href="./tilt-and-turn-doors.php">
+                <img class="nav-img" src="img/doors/contemporary.jpg">
+                <p>Tilt-Turn</p>
             </a>
-            <a href="./product.php">
-                <img class="nav-img" src="img/doors/garage.jpg">
-                <p>Garage</p>
-            </a>
-            <a href="./product.php">
-                <img class="nav-img" src="img/doors/specialty.jpg">
-                <p>Specialty</p>
+            <a href="./contemporary-wood-doors.php">
+                <img class="nav-img" src="img/doors/contemporary.jpg">
+                <p>Steel Door</p>
             </a>
         </nav>
         <!-- search box  -->

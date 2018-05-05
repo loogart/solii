@@ -81,6 +81,10 @@ a {
     border-bottom: 6px solid var(--darker);
 }
 
+.sub-menu.sub-menu__2 a {
+    margin: 0 1.2rem;
+}
+
 
 /*
  * Extra utilities
@@ -359,6 +363,9 @@ footer a {
     .tt-menu {
     width: 100vw;
     }
+    .sub-menu a:last-child{
+        padding-right:3rem;
+    }
 }
 
 .tt-suggestion {
@@ -417,7 +424,7 @@ a.tt-suggestion:hover {
 }
 
 .about-jumbotron {
-    height: 269px;
+    height: 369px;
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -497,3 +504,11 @@ a.tt-suggestion:hover {
 }
 
 
+
+.manufacturer-logo {
+    width:
+}
+
+form     label{
+    font-weight: bold;
+}

@@ -31,7 +31,7 @@
                     <div class="bg-beige text-left darker">
                         <div class="p-5">
                             <h2 class="display-5 text-uppercase">Classic<br> Traditional</h2>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p class="lead">A timeless sense of character. Rich finishes that are essential to a classic home.</p>
                             <a class="btn btn-dark bg-darker btn-shadow" style="border-radius: 0" href="#!" data-toggle="modal" data-target="#classicStyle">Classic Style</a>
                         </div>
                     </div>
@@ -41,7 +41,9 @@
                     <div class="bg-darker text-left text-light">
                         <div class="p-5">
                             <h2 class="display-5 text-uppercase">Sleek<br> Modern</h2>
-                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p class="lead">
+                                Seamless design. Precise elements that yield a contemporary expression.
+                            </p>
                             <a class="btn btn-outline-light" href="#!" data-toggle="modal" data-target="#modernStyle">Modern Style</a>
                         </div>
                     </div>
@@ -55,7 +57,7 @@
                 <div class="py-5 d-flex justify-content-center text-center video-section">
                     <div class="p-md-5 w-75 darker">
                         <h2 class="display-5 text-uppercase">Made in Canada</h2>
-                        <p class="my-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi explicabo illum ad tenetur quaerat perspiciatis quidem minus fugit, quos aperiam aut beatae possimus odit ipsam suscipit. Atque temporibus nisi harum!</p>
+                        <p class="my-md-4">Supporting Canadian talent is something we are proud of, and as each product bears the hallmarks of time-honoured Canadian craftsmanship - you can be proud too. </p>
                         <div class="embed-responsive embed-responsive-16by9 video-shadow">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ERd9v_3KPuQ" allowfullscreen></iframe>
                         </div>
@@ -72,8 +74,8 @@
                         <img class="" style="width:100%;height:440px;object-fit: cover" src="./img/featurette-1.png">
                     </div>
                     <div class="col-md-6 d-flex flex-column p-5 d-flex flex-column justify-content-center darker">
-                        <h2 class="text-uppercase">The First Impression</h2>
-                        <p>You have finished building your own website. You have introduced your company and presented your products and services. You have added propositions and promos to catch your target audience’s attention. You think you are doing. everything “right”, but all your promotions have failed to produce growth in your new internet business.</p>
+                        <h2 class="text-uppercase">A First Impression Like No Other</h2>
+                        <p>Make the right first impression. As the exclusive Ontario distributor for award-winning Belisle Architectural and Dionne Architecturale, Solii Artisanal Windows & Doors is proud to offer superior Canadian-made, luxury windows and doors for your next new build or renovation project.</p>
                     </div>
                 </div>
             </div>
@@ -88,7 +90,7 @@
                     </div>
                     <div class="col-md-6 d-flex flex-column p-5 d-flex flex-column justify-content-center">
                         <h2 class="text-uppercase darker">Architects Rejoice</h2>
-                        <p>You have finished building your own website. You have introduced your company and presented your products and services. You have added propositions and promos to catch your target audience’s attention. You think you are doing. everything “right”, but all your promotions have failed to produce growth in your new internet business.</p>
+                        <p>We understand that client satisfaction is paramount. Renowned builders, architects, and designers in the nation’s capital use our product offerings to enhance their buildings. Discover how working with the best in windows and doors can elevate your projects to give you that special signature. Enhance your reputation from the outside in.</p>
                     </div>
                 </div>
             </div>
@@ -99,7 +101,7 @@
             <div class="container-fluid p-5 text-light d-flex justify-content-center" style="background-color:#181918">
                 <div class="text-center p-md-5">
                     <h3 class="text-uppercase mb-3">Designed by You.</h3>
-                    <p class="mb-4">Crafed by Belisle and Dionne.</p>
+                    <p class="mb-4">Crafed by Solii</p>
                     <a class="btn btn-outline-light btn-shadow" href="mailto:robert@solii.ca">Get a custom quote</a>
                 </div>
             </div>

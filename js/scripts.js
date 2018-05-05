@@ -19,7 +19,7 @@ $(document).ready(function () {
         $(this).toggleClass("active");
         $("#showWindows").removeClass("active");
     });
-    
+
     // Search UI
     $("#showSearch").click(function () {
         $(".search-box").toggleClass("d-flex");
@@ -44,7 +44,7 @@ $(document).ready(function () {
         $(this).toggleClass("d-flex");
         $(".search-box input").blur();
     });
-    
+
     // Product page CTA UI visibility
     $(window).scroll(function () {
         if ($(window).scrollTop() + $(window).height() == $(document).height()) {
@@ -68,7 +68,7 @@ $(document).ready(function () {
         $("#showWindows").removeClass("active");
         $("#showDoors").removeClass("active");
     });
-    
+
     //lightbox for products
     $(".product-images").magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
@@ -94,7 +94,7 @@ $(document).ready(function () {
             }
         }
     });
-    
+
 });
 
 
@@ -102,52 +102,65 @@ $(document).ready(function () {
 var links = [
     {
         name: "Inswing Windows",
-        link: "./product.html"
+        link: "./inswing-windows.php"
         },
     {
         name: "Outswing Windows",
-        link: "./product.html"
+        link: "./outswing-windows.php"
         },
     {
         name: "Push-Out Windows",
-        link: "./product.html"
+        link: "./push-out-windows.php"
         },
     {
         name: "Hung Windows",
-        link: "./product.html"
+        link: "./hung-windows.php"
         },
     {
-        name: "Single Windows",
-        link: "./product.html"
+        name: "Fixed Windows",
+        link: "./fixed-windows.php"
     },
     {
         name: "Specialty Windows",
-        link: "./product.html"
+        link: "./specialty-windows.php"
     },
     {
         name: "Single Doors",
-        link: "./product.html"
+        link: "./single-doors.php"
         },
     {
         name: "French Doors",
-        link: "./product.html"
+        link: "./french-doors.php"
         },
     {
-        name: "Contemporary Doors",
-        link: "./product.html"
+        name: "Lift & Slide",
+        link: "./lift-and-slide-doors.php"
         },
     {
-        name: "Lift and Slide Doors",
-        link: "./product.html"
+        name: "Screens",
+        link: "./screens.php    "
         },
-    {
-        name: "Garage Doors",
-        link: "./product.html"
-    },
     {
         name: "Specialty Doors",
-        link: "./product.html"
+        link: ".specialty-doors.php"
+    },
+    {
+        name: "Garage Doors",
+        link: "./garage-doors.php"
+    },
+    {
+        name: "Contemporary Doors",
+        link: "./contemporary-doors.php"
+    },
+    {
+        name: "Tilt-Turn Doors",
+        link: "./tilt-and-turn-doors.php"
+    },    
+    {
+        name: "Steel Doors",
+        link: "./steel-doors.php"
     }
+
 ];
 
 var source = new Bloodhound({
@@ -160,6 +173,7 @@ source.initialize();
 
 $('#searchStuff .typeahead').typeahead(null, {
     name: 'matched-links',
+    limit:'12',
     displayKey: 'name',
     source: source.ttAdapter(),
     templates: {

@@ -133,27 +133,27 @@ echo '
                         <small class="d-block mt-3 text-muted order-md-3">
                             <ul class="list-inline">
                                 <li class="list-inline-item ml-2">
-                                    <a href="#!">
+                                    <a href="https://www.facebook.com/soliiwindows/" target="_blank">
                                         <i class="fab fa-facebook fa-2x"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item ml-3">
-                                    <a href="#!">
+                                    <a href="https://www.instagram.com/soliiwindows/" target="_blank">
                                         <i class="fab fa-instagram fa-2x"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item ml-3">
-                                    <a href="#!">
+                                    <a href="https://www.linkedin.com/company/soliiwindows/" target="_blank">
                                         <i class="fab fa-linkedin fa-2x"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item ml-3">
-                                    <a href="#!">
+                                    <a href="https://www.houzz.com/pro/info776582/__public" target="_blank">
                                         <i class="fab fa-houzz fa-2x"></i>
                                     </a>
                                 </li>
                                 <li class="list-inline-item ml-3">
-                                    <a href="#!">
+                                    <a href="mailto:robert@solii.ca" target="_blank">
                                         <i class="fal fa-envelope fa-2x"></i>
                                     </a>
                                 </li>
