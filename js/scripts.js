@@ -110,7 +110,7 @@ var links = [
         },
     {
         name: "Push-Out Windows",
-        link: "./push-out-windows.php"
+        link: "./pushout-windows.php"
         },
     {
         name: "Hung Windows",
@@ -123,6 +123,10 @@ var links = [
     {
         name: "Specialty Windows",
         link: "./specialty-windows.php"
+    },
+    {
+        name: "Tilt-Turn Windows",
+        link: "./tilt-turn-windows.php"
     },
     {
         name: "Single Doors",
@@ -142,7 +146,7 @@ var links = [
         },
     {
         name: "Specialty Doors",
-        link: ".specialty-doors.php"
+        link: "./specialty-doors.php"
     },
     {
         name: "Garage Doors",
@@ -155,7 +159,7 @@ var links = [
     {
         name: "Tilt-Turn Doors",
         link: "./tilt-and-turn-doors.php"
-    },    
+    },
     {
         name: "Steel Doors",
         link: "./steel-doors.php"
@@ -173,7 +177,7 @@ source.initialize();
 
 $('#searchStuff .typeahead').typeahead(null, {
     name: 'matched-links',
-    limit:'12',
+    limit: '12',
     displayKey: 'name',
     source: source.ttAdapter(),
     templates: {

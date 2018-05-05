@@ -39,7 +39,7 @@ echo '
             </a>
             <a href="./tilt-turn-windows.php">
                 <img class="nav-img" src="img/windows/tilt-turn.jpg">
-                <p>Til-Turn</p>
+                <p>Tilt-Turn</p>
             </a>
         </nav>
         <!-- sub menu doors -->
