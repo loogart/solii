@@ -3,7 +3,7 @@
 
 <head>
     <?php include './php/head.php';?>
-    <title>Solii | Push-Out Windows</title>
+    <title>Solii | Solid Wood Tilt-Turn Windows</title>
 </head>
 
 <body>
@@ -14,10 +14,10 @@
         <img class="product-jumbotron" src="./img/.jpg">
         <section class="content-area">
             <div class="container p-3 p-md-5">
-                <h1 class="text-uppercase mb-md-5">Push-Out Casement</h1>
+                <h1 class="text-uppercase mb-md-5">Solid Wood Tilt-Turn (Belisle)</h1>
                 <div class="row">
                     <div class="col-12 col-md-4 text-center product-img">
-                        <img class="img-fluid p-4" src="./img/windows/pushout.png">
+                        <img class="img-fluid p-4" src="./img/windows/wood-tilt-turn.jpg">
                         <div class="product-images">
                             <a href="./img/classic.jpg" class="darker">View all Photos</a>
                             <a href="./img/featurette-1.png" class="d-none">Open popup 2</a>
@@ -35,13 +35,11 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Push-Out Casement Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
-                                <p>The traditional push-out window was inspired by the architecture of the early 16th century. One of the most recognizable elements of this architecture is the use of leaded glass panels within heavy mullioned windows. There is elegance in the contrast of dark solid wood against a historical cachet. Designed with the highest standards of quality, and executed with the highest standards of construction, this premium custom window adds an enchanting element to any home.</p>
+                                <h2 class="py-3">Customize your Solid Wood Tilt-Turn Window</h2>
+                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life.</p>
+                                <p>European design and engineering puts the tilt-turn window at the forefront of contemporary design. For those who seek a lifestyle of simplicity and function, it offers clean lines that embody the essence of refinement in a space. Remarkably windproof, waterproof, and robust, the tilt-turn window can be produced in custom extra-large sizes. Clever design yields a multi-point locking system that seals the sash to the frame on all four sides, just like an airplane door.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
-
-                               
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
@@ -72,7 +70,7 @@
             $("#showWindows").toggleClass("active");
             $("nav.sub-menu__1").toggleClass("d-flex");
             $("nav.sub-menu__2").removeClass("d-flex");
-            $(".sub-menu__1 a:nth-child(3)").addClass("active");
+            $(".sub-menu__1 a:nth-child(8)").addClass("active");
         });
     </script>
 </body>

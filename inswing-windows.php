@@ -14,7 +14,7 @@
         <img class="product-jumbotron" src="./img/.jpg">
         <section class="content-area">
             <div class="container p-3 p-md-5">
-                <h1 class="text-uppercase mb-md-5">Inswing Windows</h1>
+                <h1 class="text-uppercase mb-md-5">Inswing Casement</h1>
                 <div class="row">
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/windows/inswing.jpg">
@@ -35,56 +35,25 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Out-Swing Casement Window</h2>
-                                <p>Each Solii window is custom craftfted. Harness your creatitivity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
-                                <p>Material and finish options vary depending on window type.</p>
+                                <h2 class="py-3">Customize your Inswing Casement Window</h2>
+                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
+                                <p>Boasting character and historic charm, the inswing casement style in particular is a classic design that fits seamlessly into most residential projects. The result? A custom-made window with a perfect blend of period design and modern technology.</p>
+                                <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
 
-                                <h2 class="py-3">Wood</h2>
+                                <h2 class="py-3">Custom 1</h2>
                                 <p>Clear Pine, Western Red Cedar, White Oak, Red Oak, Douglas Fir, Alder, or Honduran Mahogany</p>
 
-                                <h2 class="py-3">Glass</h2>
+                                <h2 class="py-3">Custom 2</h2>
                                 <ul>
                                     <li>Low-E, Argon filled, tempered, laminated, and historical glass available</li>
                                     <li>Factory glazed with single lite or double insulated glass available in standard and custom sizes</li>
                                 </ul>
 
-                                <h2 class="py-3">Casings &amp; Brickmold</h2>
-                                <p>Interior and exterior available upon request in standard or custom sizes and profiles.</p>
-
-                                <h2 class="py-3">Jambs</h2>
-                                <ul>
-                                    <li>Standard sizes</li>
-                                    <li>Incredible strength, stability, and durability </li>
-                                    <li>ustom jamb depth available upon request</li>
-                                </ul>
-
-                                <h2 class="py-3">Shashes</h2>
-                                <ul>
-                                    <li>Mortise and tenon construction</li>
-                                    <li>Fully weather-stripped</li>
-                                    <li>High performance and classic lines</li>
-                                </ul>
-
-                                <h2 class="py-3">Muntins</h2>
-                                <ul>
-                                    <li>7/8ʺ Simulated Divided Lite (SDL) and 1 1⁄4” True Divided Lite (TDL) options</li>
-                                    <li>Choice of colors for perimeter and internal spacer bars</li>
-                                </ul>
-
-                                <h2 class="py-3">Hardware</h2>
-                                <p>Several finishes and options available, including brass, silver, and dark brown</p>
-
-                                <h2 class="py-3">Screen</h2>
-                                <ul>
-                                    <li>Wood frame screens with fiberglass, stainless steel, or bronze mesh </li>
-                                    <li>Coppertone, black, or white aluminium frames with fiberglass mesh </li>
-                                    <li>Roll-up screens available upon request on special orders</li>
-                                </ul>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus, facilis eius repellendus maiores debitis, quos odit beatae laudantium excepturi vel, deleniti atque nostrum est. Odit temporibus aut omnis quos.</p>
+                                <p>Documents and product brochure are available upon request. Please hit the "Request Product Brochure" button below to contact our sales team for more information.</p>
                                 <hr class="mt-5">
                                 <ul class="list-unstyled download-links">
                                     <li><a href="mailto:robert.hardy@solii.ca">Request Product Brochure <i class="far fa-arrow-to-bottom"></i></a></li>

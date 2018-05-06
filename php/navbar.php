@@ -41,6 +41,11 @@ echo '
                 <img class="nav-img" src="img/windows/tilt-turn.jpg">
                 <p>Tilt-Turn</p>
             </a>
+            <a href="./wood-tilt-turn-windows.php">
+                <img class="nav-img" src="img/windows/wood-tilt-turn.jpg">
+                <p>Wood Tilt-Turn</p>
+            </a>            
+            
         </nav>
         <!-- sub menu doors -->
         <nav class="sub-menu sub-menu__2 justify-content-start justify-content-lg-center pt-4 text-center d-none">

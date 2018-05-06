@@ -13,22 +13,26 @@ echo '
                                 <div class="col-6">
                                     <h4>Windows</h4>
                                     <ul class="list-unstyled">
-                                        <li><a href="./product.html" class="darker">Inswing</a></li>
-                                        <li><a href="./product.html" class="darker">Outswing</a></li>
-                                        <li><a href="./product.html" class="darker">Push-out</a></li>
-                                        <li><a href="./product.html" class="darker">Hung</a></li>
-                                        <li><a href="./product.html" class="darker">Specialty</a></li>
+                                        <li><a href="./inswing-windows.php" class="darker">Inswing</a></li>
+                                        <li><a href="./outswing-windows.php" class="darker">Outswing</a></li>
+                                        <li><a href="./pushout-windows.php" class="darker">Push-out</a></li>
+                                        <li><a href="./hung-windows.php" class="darker">Hung</a></li>
+                                        <li><a href="./fixed-windows.php" class="darker">Fixed</a></li>
+                                        <li><a href="./specialty-windows.php" class="darker">Specialty</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-6">
                                     <h4>Doors</h4>
                                     <ul class="list-unstyled">
-                                        <li><a href="./product.html" class="darker">Single</a></li>
-                                        <li><a href="./product.html" class="darker">French</a></li>
-                                        <li><a href="./product.html" class="darker">Contemporary</a></li>
-                                        <li><a href="./product.html" class="darker">Lift and Slide</a></li>
-                                        <li><a href="./product.html" class="darker">Garage</a></li>
-                                        <li><a href="./product.html" class="darker">Specialty</a></li>
+                                        <li><a href="./single-doors.php" class="darker">Single</a></li>
+                                        <li><a href="./french-doors.php" class="darker">French</a></li>
+                                        <li><a href="./lift-and-slide-doors.php" class="darker">Lift &amp; Slide</a></li>
+                                        <li><a href="./screens.php" class="darker">Screens</a></li>
+                                        <li><a href="./specialty-doors.php" class="darker">Specialty</a></li>
+                                        <li><a href="./garage-doors.php" class="darker">Garage</a></li>
+                                        <li><a href="./contemporary-doors.php" class="darker">Contemporary</a></li>
+                                        <li><a href="./tilt-and-turn-doors.php" class="darker">Tilt-Turn</a></li>
+                                        <li><a href="./steel-doors.php" class="darker">Steel</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -55,22 +59,22 @@ echo '
                                 <div class="col-6">
                                     <h4>Windows</h4>
                                     <ul class="list-unstyled">
-                                        <li><a href="#!" class="text-white">Inswing</a></li>
-                                        <li><a href="#!" class="text-white">Outswing</a></li>
-                                        <li><a href="#!" class="text-white">Push-out</a></li>
-                                        <li><a href="#!" class="text-white">Hung</a></li>
-                                        <li><a href="#!" class="text-white">Specialty</a></li>
+                                        <li><a href="./tilt-turn-windows.php" class="text-light">Tilt-Turn</a></li>
+                                        <li><a href="./wood-tilt-turn-windows.php" class="text-light">Wood Tilt-Turn</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-6">
                                     <h4>Doors</h4>
                                     <ul class="list-unstyled">
-                                        <li><a href="./product.html" class="text-white">Single</a></li>
-                                        <li><a href="./product.html" class="text-white">French</a></li>
-                                        <li><a href="./product.html" class="text-white">Contemporary</a></li>
-                                        <li><a href="./product.html" class="text-white">Lift and Slide</a></li>
-                                        <li><a href="./product.html" class="text-white">Garage</a></li>
-                                        <li><a href="./product.html" class="text-white">Specialty</a></li>
+                                        <li><a href="./single-doors.php" class="text-light">Single</a></li>
+                                        <li><a href="./french-doors.php" class="text-light">French</a></li>
+                                        <li><a href="./lift-and-slide-doors.php" class="text-light">Lift &amp; Slide</a></li>
+                                        <li><a href="./screens.php" class="text-light">Screens</a></li>
+                                        <li><a href="./specialty-doors.php" class="text-light">Specialty</a></li>
+                                        <li><a href="./garage-doors.php" class="text-light">Garage</a></li>
+                                        <li><a href="./contemporary-doors.php" class="text-light">Contemporary</a></li>
+                                        <li><a href="./tilt-and-turn-doors.php" class="text-light">Tilt-Turn</a></li>
+                                        <li><a href="./steel-doors.php" class="text-light">Steel</a></li>
                                     </ul>
                                 </div>
                             </div>

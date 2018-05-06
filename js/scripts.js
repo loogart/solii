@@ -129,6 +129,10 @@ var links = [
         link: "./tilt-turn-windows.php"
     },
     {
+        name: "Wood Tilt-Turn Windows",
+        link: "./wood-tilt-turn-windows.php"
+    },
+    {
         name: "Single Doors",
         link: "./single-doors.php"
         },
