@@ -11,7 +11,9 @@
     <?php include './php/navbar.php';?>
     
     <main>
-        <img class="about-jumbotron" src="./img/about.jpg">
+       <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/about.jpg">
+        </div>
         <div class="content-area">
             <div class="container p-3 p-md-5">
                 <div class="row d-flex justify-content-md-center">
