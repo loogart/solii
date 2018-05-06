@@ -19,7 +19,7 @@
                     <h2 class="h3 text-uppercase mb-4 darker">Windows &amp; Doors</h2>
                     <a class="btn btn-dark bg-darker border-light btn-shadow" href="mailto:robert@solii.ca">Get a custom quote</a>
                 </div>
-                <img class="img-jumbotron" src="./img/jumbotron.jpg">
+                <img class="img-jumbotron rellax" src="./img/jumbotron.jpg">
             </div>
         </section>
 
@@ -110,7 +110,6 @@
     </main>
 
     <?php include './php/footer.php';?>
-
 </body>
 
 </html>

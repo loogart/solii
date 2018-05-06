@@ -167,6 +167,7 @@ echo '
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./js/typeahead.js"></script>
     <script src="./js/handlebars.js"></script>
+    <script src="./js/rellax.js"></script>
     <script src="./js/jquery.magnific-popup.min.js"></script>
     <script src="./js/scripts.js"></script>
 ';?>

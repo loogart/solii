@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    //parallax
+    var rellax = new Rellax('.rellax');
     //navbar active states
     var loc = window.location.href; // returns the full URL
     if (/about/.test(loc)) {
