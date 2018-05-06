@@ -11,7 +11,9 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img class="product-jumbotron" src="./img/.jpg">
+        <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/gallery/doors/contemporary_1.jpg">
+        </div>
         <section class="content-area">
             <div class="container p-3 p-md-5">
                 <h1 class="text-uppercase mb-md-5">Contemporary Wood Doors</h1>
@@ -19,9 +21,8 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/doors/contemporary.jpg">
                         <div class="product-images">
-                            <a href="./img/classic.jpg" class="darker">View all Photos</a>
-                            <a href="./img/featurette-1.png" class="d-none">Open popup 2</a>
-                            <a href="./img/featurette-2.jpg" class="d-none">Open popup 3</a>
+                            <a href="./img/doors/contemporary.jpg" class="darker">View all Photos</a>
+                            <a href="./img/gallery/doors/contemporary_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-8 product-info">
@@ -37,11 +38,15 @@
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <h2 class="py-3">Customize your Contemporary Door</h2>
                                 <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life.</p>
-                                <p>This trend-driven contemporary door features clean, sleek lines and makes for a bold first impression. Combining an aesthetic that favors minimalism and flexibility in design, a contemporary door is often punctuated by glass inserts, stainless steel strips, or other materials depending on taste. Make it your own.  </p>
+                                <p>This trend-driven contemporary door features clean, sleek lines and makes for a bold first impression. Combining an aesthetic that favors minimalism and flexibility in design, a contemporary door is often punctuated by glass inserts, stainless steel strips, or other materials depending on taste. Make it your own. </p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
-
+                                <h3 class="py-3">Performance</h3>
+                                <p>Every Solii product is tested for air and water infiltration under extreme weather simulations, as well as structural and energy performance, at an independent certified testing laboratory.</p>
+                                <p>Ratings vary depending on the chosen door system.</p>
                                 
+                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or contact us - our experts can help bring your vision to life.</p>
+
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
@@ -74,6 +79,7 @@
             $("nav.sub-menu__1").removeClass("d-flex");
             $(".sub-menu__2 a:nth-child(7)").addClass("active");
         });
+
     </script>
 </body>
 

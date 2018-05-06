@@ -1,6 +1,4 @@
 $(document).ready(function () {
-    //parallax
-    var rellax = new Rellax('.rellax');
     //navbar active states
     var loc = window.location.href; // returns the full URL
     if (/about/.test(loc)) {
@@ -99,7 +97,6 @@ $(document).ready(function () {
 
 });
 
-
 // typeahead
 var links = [
     {
@@ -196,3 +193,6 @@ $('#searchStuff .typeahead').typeahead(null, {
         suggestion: Handlebars.compile('<a href="{{link}}">{{name}}</a>')
     }
 });
+
+//parallax
+var rellax = new Rellax('.rellax');

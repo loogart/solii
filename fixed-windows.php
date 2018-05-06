@@ -11,17 +11,19 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img class="product-jumbotron" src="./img/.jpg">
+        <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/gallery/fixed_1.jpg">
+        </div>
         <section class="content-area">
             <div class="container p-3 p-md-5">
-                <h1 class="text-uppercase mb-md-5">Fixed Windows</h1>
+                <h1 class="text-uppercase mb-md-5">Panoramic Fixed Windows</h1>
                 <div class="row">
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/windows/fixed.jpg">
                         <div class="product-images">
-                            <a href="./img/classic.jpg" class="darker">View all Photos</a>
-                            <a href="./img/featurette-1.png" class="d-none">Open popup 2</a>
-                            <a href="./img/featurette-2.jpg" class="d-none">Open popup 3</a>
+                            <a href="./img/windows/fixed.jpg" class="darker">View all Photos</a>
+                            <a href="./img/gallery/fixed_1.jpg" class="d-none">Open popup 2</a>
+                            <a href="./img/gallery/fixed_2.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-8 product-info">
@@ -35,14 +37,16 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Fixed Window</h2>
+                                <h2 class="py-3">Customize your Panoramic Fixed Window</h2>
                                 <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.
                                 </p>
-                                <p>Contemporary in style, the fixed frame panoramic window celebrates natural light, inviting your space to unfold in pure, natural beauty. The panoramic window can be custom-made with several sections of glass retained in wooden frames - fine sightlines maximize every vista. With its luminosity, it is the natural ally of the tilt-turn, yielding efficient ventilation in any space.</p>
-                                <p>MMaterial and finish options may vary.</p>
+                                <p>Contemporary in style, the fixed frame panoramic window celebrates natural light, inviting your space to unfold in pure, natural beauty.</p>
+                                <p> The panoramic window can be custom-made with several sections of glass retained in wooden frames - fine sightlines maximize every vista. With its luminosity, it is the natural ally of the tilt-turn, yielding efficient ventilation in any space.</p>
+                                <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
-
-                                
+                                <h3 class="py-3">Performance</h3>
+                                <p>Every Solii product is tested for air and water infiltration under extreme weather simulations, as well as structural and energy performance, at an independent certified testing laboratory. </p>
+                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or contact us - our experts can help bring your vision to life.</p>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>

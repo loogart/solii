@@ -11,7 +11,9 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img class="product-jumbotron" src="./img/.jpg">
+        <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/gallery/doors/screen_1.jpg" style="object-position:50% 80%">
+        </div>
         <section class="content-area">
             <div class="container p-3 p-md-5">
                 <h1 class="text-uppercase mb-md-5">Screens</h1>
@@ -19,9 +21,8 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/doors/screen.jpg">
                         <div class="product-images">
-                            <a href="./img/classic.jpg" class="darker">View all Photos</a>
-                            <a href="./img/featurette-1.png" class="d-none">Open popup 2</a>
-                            <a href="./img/featurette-2.jpg" class="d-none">Open popup 3</a>
+                            <a href="./img/doors/screen.jpg" class="darker">View all Photos</a>
+                            <a href="./img/gallery/doors/screen_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-8 product-info">
@@ -37,11 +38,21 @@
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <h2 class="py-3">Customize your Screen Door</h2>
                                 <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
-                                <p>There’s nothing like fresh air flowing through your home, and a screen door perfectly suited to your front door offers optimal air flow and great style. Made according to custom specifications, our door frames are tailor-made to match the dimensions and style of your front door.  </p>
+                                <p>There’s nothing like fresh air flowing through your home, and a screen door perfectly suited to your front door offers optimal air flow and great style. Made according to custom specifications, our door frames are tailor-made to match the dimensions and style of your front door. </p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
-
-                                
+                                <h3 class="py-3">Details</h3>
+                                <p>Our screen doors allow for maximum air circulation while remaining incredibly sturdy at 1 ½” thick.</p>
+                                <ul>
+                                    <li>Mortise and tenon construction</li>
+                                    <li>1 1/2″ door thickness</li>
+                                    <li>Solid wood members, not finger-jointed</li>
+                                    <li>Made in Western Red Cedar, White Oak, Douglas Fir, African and Honduran Mahogany</li>
+                                    <li>Standard or custom sizes and models</li>
+                                    <li>Fibreglass, stainless steel or bronze insect mesh</li>
+                                    <li>Corner carvings available upon request</li>
+                                </ul>
+                                <p>Each Solii screen door is custom crafted. Harness your creativity and develop your own design, or contact us - our experts can help bring your vision to life.</p>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
@@ -74,6 +85,7 @@
             $("nav.sub-menu__1").removeClass("d-flex");
             $(".sub-menu__2 a:nth-child(4)").addClass("active");
         });
+
     </script>
 </body>
 

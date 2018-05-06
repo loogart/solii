@@ -11,7 +11,9 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img class="product-jumbotron" src="./img/.jpg">
+        <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/gallery/doors/garage_1.jpg">
+        </div>
         <section class="content-area">
             <div class="container p-3 p-md-5">
                 <h1 class="text-uppercase mb-md-5">Garage Doors</h1>
@@ -19,9 +21,8 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/doors/garage.jpg">
                         <div class="product-images">
-                            <a href="./img/classic.jpg" class="darker">View all Photos</a>
-                            <a href="./img/featurette-1.png" class="d-none">Open popup 2</a>
-                            <a href="./img/featurette-2.jpg" class="d-none">Open popup 3</a>
+                            <a href="./img/doors/garage.jpg" class="darker">View all Photos</a>
+                            <a href="./img/gallery/doors/garage_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-8 product-info">
@@ -41,47 +42,6 @@
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
 
-                                <h2 class="py-3">Wood</h2>
-                                <p>Clear Pine, Western Red Cedar, White Oak, Red Oak, Douglas Fir, Alder, or Honduran Mahogany</p>
-
-                                <h2 class="py-3">Glass</h2>
-                                <ul>
-                                    <li>Low-E, Argon filled, tempered, laminated, and historical glass available</li>
-                                    <li>Factory glazed with single lite or double insulated glass available in standard and custom sizes</li>
-                                </ul>
-
-                                <h2 class="py-3">Casings &amp; Brickmold</h2>
-                                <p>Interior and exterior available upon request in standard or custom sizes and profiles.</p>
-
-                                <h2 class="py-3">Jambs</h2>
-                                <ul>
-                                    <li>Standard sizes</li>
-                                    <li>Incredible strength, stability, and durability </li>
-                                    <li>ustom jamb depth available upon request</li>
-                                </ul>
-
-                                <h2 class="py-3">Shashes</h2>
-                                <ul>
-                                    <li>Mortise and tenon construction</li>
-                                    <li>Fully weather-stripped</li>
-                                    <li>High performance and classic lines</li>
-                                </ul>
-
-                                <h2 class="py-3">Muntins</h2>
-                                <ul>
-                                    <li>7/8ʺ Simulated Divided Lite (SDL) and 1 1⁄4” True Divided Lite (TDL) options</li>
-                                    <li>Choice of colors for perimeter and internal spacer bars</li>
-                                </ul>
-
-                                <h2 class="py-3">Hardware</h2>
-                                <p>Several finishes and options available, including brass, silver, and dark brown</p>
-
-                                <h2 class="py-3">Screen</h2>
-                                <ul>
-                                    <li>Wood frame screens with fiberglass, stainless steel, or bronze mesh </li>
-                                    <li>Coppertone, black, or white aluminium frames with fiberglass mesh </li>
-                                    <li>Roll-up screens available upon request on special orders</li>
-                                </ul>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
@@ -114,6 +74,7 @@
             $("nav.sub-menu__1").removeClass("d-flex");
             $(".sub-menu__2 a:nth-child(6)").addClass("active");
         });
+
     </script>
 </body>
 

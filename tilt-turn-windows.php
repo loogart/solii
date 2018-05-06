@@ -11,7 +11,9 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img class="product-jumbotron" src="./img/.jpg">
+        <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/gallery/tilt-turn_1.png">
+        </div>
         <section class="content-area">
             <div class="container p-3 p-md-5">
                 <h1 class="text-uppercase mb-md-5">Insulated Aluminum Tilt-Turn (by Dionne)</h1>
@@ -19,9 +21,8 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/windows/tilt-turn.jpg">
                         <div class="product-images">
-                            <a href="./img/classic.jpg" class="darker">View all Photos</a>
-                            <a href="./img/featurette-1.png" class="d-none">Open popup 2</a>
-                            <a href="./img/featurette-2.jpg" class="d-none">Open popup 3</a>
+                            <a href="./img/windows/tilt-turn.jpg" class="darker">View all Photos</a>
+                            <a href="./img/gallery/tilt-turn_1.png" class="d-none">Open popup 2</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-8 product-info">
@@ -40,6 +41,8 @@
                                 <p>Each high-performance aluminum tilt-turn can be customized for sizing, glazing, finishes, and colour. Each and every Dionne product is Energy Star certified so you can stay cool and comfortable in the summer, and warm and cozy in the winter. Whether your project is architectural, residential, or commercial, our product will adapt to your environment to create a lighter, more open space. Create unobstructed views and enjoy your surroundings.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
+                                <p>Every Solii product is tested for air and water infiltration under extreme weather simulations, as well as structural and energy performance, at an independent certified testing laboratory. </p>
+                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or contact us - our experts can help bring your vision to life.</p>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
@@ -72,6 +75,7 @@
             $("nav.sub-menu__2").removeClass("d-flex");
             $(".sub-menu__1 a:nth-child(7)").addClass("active");
         });
+
     </script>
 </body>
 

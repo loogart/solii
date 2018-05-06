@@ -11,7 +11,9 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img class="product-jumbotron" src="./img/.jpg">
+        <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/gallery/doors/tilt-turn_1.jpg" style="object-position:50% 60%">
+        </div>
         <section class="content-area">
             <div class="container p-3 p-md-5">
                 <h1 class="text-uppercase mb-md-5">Tilt and Turn Doors</h1>
@@ -19,9 +21,8 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/doors/tilt-turn.jpg">
                         <div class="product-images">
-                            <a href="./img/classic.jpg" class="darker">View all Photos</a>
-                            <a href="./img/featurette-1.png" class="d-none">Open popup 2</a>
-                            <a href="./img/featurette-2.jpg" class="d-none">Open popup 3</a>
+                            <a href="./img/doors/tilt-turn.jpg" class="darker">View all Photos</a>
+                            <a href="./img/gallery/doors/tilt-turn_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-8 product-info">
@@ -41,8 +42,34 @@
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
 
-                               
+                                <h3 class="py-3">Advantages</h3>
+                                <ul>
+
+                                    <li>Easy maintenance</li>
+                                    <li>Very esthetic appearance</li>
+                                    <li>Safe</li>
+                                    <li>Great brightness</li>
+                                    <li>Innovative product</li>
+                                </ul>
+                                <h3 class="py-3">Characteristics</h3>
+                                <ul>
+                                    <li>Tilt to open</li>
+                                    <li>Very large glass surface available</li>
+                                    <li>Robust European hardware</li>
+                                    <li>Custom design</li>
+                                    <li>Ideal product for modern and spartan architectures</li>
+                                </ul>
+
+                                <h3 class="py-3">Materials</h3>
+                                <ul>
+                                    <li>Aluminum: metal, anodized, or infinite color finish</li>
+                                    <li>PVC</li>
+                                    <li>PVC and wood interior</li>
+                                </ul>
                             </div>
+
+
+
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
                                 <p>Documents and product brochure are available upon request. Please hit the "Request Product Brochure" button below to contact our sales team for more information.</p>
@@ -74,6 +101,7 @@
             $("nav.sub-menu__1").removeClass("d-flex");
             $(".sub-menu__2 a:nth-child(8)").addClass("active");
         });
+
     </script>
 </body>
 

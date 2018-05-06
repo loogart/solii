@@ -11,7 +11,9 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <img class="product-jumbotron" src="./img/.jpg">
+        <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/gallery/doors/lift-slide_1.jpg">
+        </div>
         <section class="content-area">
             <div class="container p-3 p-md-5">
                 <h1 class="text-uppercase mb-md-5">Lift &amp; Slide Doors</h1>
@@ -19,9 +21,8 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/doors/lift-slide.jpg">
                         <div class="product-images">
-                            <a href="./img/classic.jpg" class="darker">View all Photos</a>
-                            <a href="./img/featurette-1.png" class="d-none">Open popup 2</a>
-                            <a href="./img/featurette-2.jpg" class="d-none">Open popup 3</a>
+                            <a href="./img/doors/lift-slide.jpg" class="darker">View all Photos</a>
+                            <a href="./img/gallery/doors/lift-slide_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
                     <div class="col-12 col-md-8 product-info">
@@ -42,14 +43,108 @@
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
 
-                                <h2 class="py-3">Wood</h2>
-                                <p>Clear Pine, Western Red Cedar, White Oak, Red Oak, Douglas Fir, Alder, or Honduran Mahogany</p>
-
-                                <h2 class="py-3">Glass</h2>
+                                <h3 class="py-3">Solid Wood Construction</h3>
                                 <ul>
-                                    <li>Low-E, Argon filled, tempered, laminated, and historical glass available</li>
-                                    <li>Factory glazed with single lite or double insulated glass available in standard and custom sizes</li>
+                                    <li>Western Red Cedar, White Oak, Douglas Fir, African and Honduran Mahogany</li>
+                                    <li>Solid wood only, no finger joints are used</li>
                                 </ul>
+
+                                <h3 class="py-3">Exterior Casing or Brickmold</h3>
+                                <ul>
+                                    <li>Available upon request in standard or custom sizes and profiles</li>
+                                    <li>Interior casing is also available</li>
+                                </ul>
+
+                                <h3 class="py-3">Meeting Styles</h3>
+                                <ul>
+                                    <li>Opposed “V” system with integrated silicone weather-stripping</li>
+                                    <li>Superior strength, sealing and a good grip all over the door</li>
+                                </ul>
+
+                                <h3 class="py-3">Glass</h3>
+                                <ul>
+                                    <li>Factory glazed with single lite or with 7/8” double insulated glass units</li>
+                                    <li>Tempered glass is standard across the United States</li>
+                                    <li>Low-E, Argon filled, laminated and historical glass available</li>
+                                    <li>Other options available upon request</li>
+                                </ul>
+
+                                <h3 class="py-3">1 5/8″ X 6 9/16″ or 9 15/16″ Jamb</h3>
+                                <ul>
+                                    <li>Solid or laminated wood frame according to the frame size</li>
+                                    <li>Unique design hardwood sloped sill</li>
+                                    <li>Incredible strength, stability and durability</li>
+                                    <li>Custom jamb depth available upon request</li>
+                                </ul>
+
+                                <h3 class="py-3">2 1/4″ Door Slab</h3>
+                                <ul>
+                                    <li>Mortise and tenon construction</li>
+                                    <li>Fully weather-stripped</li>
+                                    <li>High performance ratings and classic lines</li>
+                                </ul>
+                                <h3 class="py-3">Sill</h3>
+                                <ul>
+                                    <li>White Oak or Mahogany available</li>
+                                    <li>2 1/4″ wood thickness</li>
+                                    <li>Incredible strength, stability and durability</li>
+                                </ul>
+
+                                <h3 class="py-3">Panels</h3>
+                                <ul>
+                                    <li>Laminated for superior strength and avoid distortion</li>
+                                </ul>
+
+                                <h3 class="py-3">Muntins</h3>
+                                <ul>
+                                    <li>7/8″ Simulated Divided Lite (SDL) and 1 ¼” True Divided Lite (TDL) options</li>
+                                    <li>With choice of colors for perimeter and internal spacer bars</li>
+                                </ul>
+
+                                <h3 class="py-3">Hardware and pre-finish</h3>
+                                <ul>
+                                    <li>Hardware easy to use lift and slide system</li>
+                                    <li>Long lasting high performance</li>
+                                    <li>Two finishes for the handle available: silver or dark brown</li>
+                                </ul>
+
+                                <h3 class="py-3">Screen</h3>
+                                <ul>
+                                    <li>Standard solid wood slide screen door with fibreglass</li>
+                                    <li>Aluminum mesh available upon request</li>
+                                    <li>Manual or motorised retractable screen options</li>
+                                </ul>
+
+                                <h3 class="py-3">Choice</h3>
+                                <ul>
+                                    <li>Incredible variety of door sizes: choice of two to six leaves</li>
+                                    <li>Motorised system available</li>
+                                </ul>
+
+                                <h3 class="py-3">Performance</h3>
+                                <p>Every Solii product is tested for air and water infiltration under extreme weather simulations, as well as structural and energy performance, at an independent certified testing laboratory.</p>
+                                <p>CAN/CGSB-82.1-M89</p>
+                                <table class="table table-dark">
+                                    <tr>
+                                        <th>Test</th>
+                                        <th>Result</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Air tightness</td>
+                                        <td>A3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Water tightness</td>
+                                        <td>B2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wind load resistance</td>
+                                        <td>C3</td>
+                                    </tr>
+                                </table>
+                                <p>Ratings vary depending on the chosen door system. </p>
+
+                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or contact us - our experts can help bring your vision to life.</p>
 
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">

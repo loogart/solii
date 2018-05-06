@@ -420,7 +420,7 @@ a.tt-suggestion:hover {
     height: 369px;
     width: 100%;
     object-fit: cover;
-    object-position: bottom;
+    object-position: center;
 }
 
 .about-jumbotron {
@@ -480,7 +480,7 @@ a.tt-suggestion:hover {
         position: -webkit-sticky;
         position: sticky;
         top: 80px;
-        height: 100vh;
+        height: 69vh;
     }
     .product-info .nav-tabs {
         position: -webkit-sticky;
