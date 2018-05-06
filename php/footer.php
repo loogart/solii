@@ -30,9 +30,6 @@ echo '
                                         <li><a href="./screens.php" class="darker">Screens</a></li>
                                         <li><a href="./specialty-doors.php" class="darker">Specialty</a></li>
                                         <li><a href="./garage-doors.php" class="darker">Garage</a></li>
-                                        <li><a href="./contemporary-doors.php" class="darker">Contemporary</a></li>
-                                        <li><a href="./tilt-and-turn-doors.php" class="darker">Tilt-Turn</a></li>
-                                        <li><a href="./steel-doors.php" class="darker">Steel</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -66,12 +63,6 @@ echo '
                                 <div class="col-6">
                                     <h4>Doors</h4>
                                     <ul class="list-unstyled">
-                                        <li><a href="./single-doors.php" class="text-light">Single</a></li>
-                                        <li><a href="./french-doors.php" class="text-light">French</a></li>
-                                        <li><a href="./lift-and-slide-doors.php" class="text-light">Lift &amp; Slide</a></li>
-                                        <li><a href="./screens.php" class="text-light">Screens</a></li>
-                                        <li><a href="./specialty-doors.php" class="text-light">Specialty</a></li>
-                                        <li><a href="./garage-doors.php" class="text-light">Garage</a></li>
                                         <li><a href="./contemporary-doors.php" class="text-light">Contemporary</a></li>
                                         <li><a href="./tilt-and-turn-doors.php" class="text-light">Tilt-Turn</a></li>
                                         <li><a href="./steel-doors.php" class="text-light">Steel</a></li>

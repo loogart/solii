@@ -35,9 +35,10 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Out-Swing Casement Window</h2>
-                                <p>Each Solii window is custom craftfted. Harness your creatitivity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
-                                <p>Material and finish options vary depending on window type.</p>
+                                <h2 class="py-3">Customize your French Doors</h2>
+                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <p>Made of luxurious solid wood, the French door with two leaves offers incomparable elegance and timeless appeal. Full-size glazing yields exceptional brightness and adds a sense of prestige to any space. A celebration of time-honoured craftsmanship merged with state of the art technology, this door brightens interiors like nothing else.</p>
+                                <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
 
                                 <h2 class="py-3">Wood</h2>
@@ -84,7 +85,7 @@
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus, facilis eius repellendus maiores debitis, quos odit beatae laudantium excepturi vel, deleniti atque nostrum est. Odit temporibus aut omnis quos.</p>
+                                <p>Documents and product brochure are available upon request. Please hit the "Request Product Brochure" button below to contact our sales team for more information.</p>
                                 <hr class="mt-5">
                                 <ul class="list-unstyled download-links">
                                     <li><a href="mailto:robert.hardy@solii.ca">Request Product Brochure <i class="far fa-arrow-to-bottom"></i></a></li>

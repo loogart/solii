@@ -35,9 +35,10 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Out-Swing Casement Window</h2>
-                                <p>Each Solii window is custom craftfted. Harness your creatitivity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
-                                <p>Material and finish options vary depending on window type.</p>
+                                <h2 class="py-3">Customize your Single Door</h2>
+                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <p>Robust and exceptionally well manufactured; a solid wood front door highlights warmth and hospitality while being a jumping off point for your home’s stylistic reference. Whether part of the main or secondary front door system, our solid wood door is incredibly durable and classic in design.</p>
+                                <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
 
                                 <h2 class="py-3">Wood</h2>
@@ -49,42 +50,11 @@
                                     <li>Factory glazed with single lite or double insulated glass available in standard and custom sizes</li>
                                 </ul>
 
-                                <h2 class="py-3">Casings &amp; Brickmold</h2>
-                                <p>Interior and exterior available upon request in standard or custom sizes and profiles.</p>
-
-                                <h2 class="py-3">Jambs</h2>
-                                <ul>
-                                    <li>Standard sizes</li>
-                                    <li>Incredible strength, stability, and durability </li>
-                                    <li>ustom jamb depth available upon request</li>
-                                </ul>
-
-                                <h2 class="py-3">Shashes</h2>
-                                <ul>
-                                    <li>Mortise and tenon construction</li>
-                                    <li>Fully weather-stripped</li>
-                                    <li>High performance and classic lines</li>
-                                </ul>
-
-                                <h2 class="py-3">Muntins</h2>
-                                <ul>
-                                    <li>7/8ʺ Simulated Divided Lite (SDL) and 1 1⁄4” True Divided Lite (TDL) options</li>
-                                    <li>Choice of colors for perimeter and internal spacer bars</li>
-                                </ul>
-
-                                <h2 class="py-3">Hardware</h2>
-                                <p>Several finishes and options available, including brass, silver, and dark brown</p>
-
-                                <h2 class="py-3">Screen</h2>
-                                <ul>
-                                    <li>Wood frame screens with fiberglass, stainless steel, or bronze mesh </li>
-                                    <li>Coppertone, black, or white aluminium frames with fiberglass mesh </li>
-                                    <li>Roll-up screens available upon request on special orders</li>
-                                </ul>
+                                
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus, facilis eius repellendus maiores debitis, quos odit beatae laudantium excepturi vel, deleniti atque nostrum est. Odit temporibus aut omnis quos.</p>
+                                <p>Documents and product brochure are available upon request. Please hit the "Request Product Brochure" button below to contact our sales team for more information.</p>
                                 <hr class="mt-5">
                                 <ul class="list-unstyled download-links">
                                     <li><a href="mailto:robert.hardy@solii.ca">Request Product Brochure <i class="far fa-arrow-to-bottom"></i></a></li>

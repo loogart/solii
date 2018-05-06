@@ -35,9 +35,10 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Out-Swing Casement Window</h2>
-                                <p>Each Solii window is custom craftfted. Harness your creatitivity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
-                                <p>Material and finish options vary depending on window type.</p>
+                                <h2 class="py-3">Customize your Garage Door</h2>
+                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <p>Often the first thing people see, the authenticity of a premium wood garage door elevates first impressions in a luxury home. With a personalized look and feel that’s aligned with the design of your home, be confident in the security and style offered by a Solii garage door. </p>
+                                <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
 
                                 <h2 class="py-3">Wood</h2>
@@ -84,7 +85,7 @@
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non minus, facilis eius repellendus maiores debitis, quos odit beatae laudantium excepturi vel, deleniti atque nostrum est. Odit temporibus aut omnis quos.</p>
+                                <p>Documents and product brochure are available upon request. Please hit the "Request Product Brochure" button below to contact our sales team for more information.</p>
                                 <hr class="mt-5">
                                 <ul class="list-unstyled download-links">
                                     <li><a href="mailto:robert.hardy@solii.ca">Request Product Brochure <i class="far fa-arrow-to-bottom"></i></a></li>
