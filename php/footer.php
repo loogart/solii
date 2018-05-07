@@ -110,7 +110,7 @@ echo '
                     <h6 class="text-uppercase text-muted mb-3">Company</h6>
                     <ul class="list-unstyled text-small">
                         <li><a class="text-white" href="./about.php">About</a></li>
-                        <li><a class="text-white" href="./blog.php">Blog</a></li>
+                        <li><a class="text-white" href="#!">Blog (Coming Soon)</a></li>
                         <li><a class="text-white" href="./contact.php">Contact</a></li>
                     </ul>
                 </div>
