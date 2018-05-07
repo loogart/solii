@@ -101,7 +101,7 @@
             <div class="container-fluid p-5 text-light d-flex justify-content-center" style="background-color:#181918">
                 <div class="text-center p-md-5">
                     <h3 class="text-uppercase mb-3">Designed by You.</h3>
-                    <p class="mb-4">Crafed by Solii</p>
+                    <p class="mb-4">Crafted by Solii</p>
                     <a class="btn btn-outline-light btn-shadow" href="mailto:robert@solii.ca">Get a custom quote</a>
                 </div>
             </div>
