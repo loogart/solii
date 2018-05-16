@@ -53,7 +53,7 @@
 
         <!-- Made in Canada Section-->
         <section class="made-in-canada">
-            <div class="px-3 mb-3">
+            <div class="px-3">
                 <div class="py-5 d-flex justify-content-center text-center video-section">
                     <div class="p-md-5 w-75 darker">
                         <h2 class="display-5 text-uppercase">Made in Canada</h2>

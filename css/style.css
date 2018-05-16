@@ -4,18 +4,33 @@
     --shadow-btn: 0 15px 30px 0 rgba(0, 0, 0, 0.34);
 }
 
-
-/*
-@font-face {
-    font-family: 'Alte-DIN-1451-Mittelschrift';
-    src: url('../fonts/Alte-DIN-1451-Mittelschrift.ttf.woff') format('woff'),
-    url('../fonts/Alte-DIN-1451-Mittelschrift.ttf.svg#Alte-DIN-1451-Mittelschrift') format('svg'),
-    url('../fonts/Alte-DIN-1451-Mittelschrift.ttf.eot'),
-    url('../fonts/Alte-DIN-1451-Mittelschrift.ttf.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
+html,
+body {
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    -webkit-animation: fadein 0.5s;
+    -o-animation: fadein 0.5s;
+    background: #0B0B09;
 }
-*/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 @import url("https://use.typekit.net/nyd5qdd.css");
 
@@ -503,17 +518,65 @@ a.tt-suggestion:hover {
     margin-bottom:0.5rem;
 }
 
-
-
 .manufacturer-logo {
     width:
 }
 
-form     label{
+form label {
     font-weight: bold;
 }
+
 .img-manufacturers {
     object-fit: fill;
     width:100%;
     height:320px;
+}
+
+.high-card {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.04), 0 15px 12px rgba(0,0,0,0.1);
+    border:1px solid #f5f5f5;
+    transition:.25s all ease-in-out;
+    margin-top:-100px;
+}
+
+@media (max-width:767px){
+    .high-card{
+        margin-top:0;
+    }
+}
+
+.high-card:hover{
+    transform: translateY(-5px);
+}
+
+.mini-flag {
+    height:1rem;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+.content-area, .classic-vs-modern, .made-in-canada, .featurette-1, .featurette-2 {
+    background-color:#fff;
+}
+
+.content-area h1::after{
+    content:"";
+    display: block;
+    width:160px;
+    height:3px;
+    background-color: #222;
+    margin:20px 0;
+}
+.content-area h2::after, .content-area h3::after{
+    content:"";
+    display: block;
+    width:100px;
+    height:2px;
+    background-color: #333;
+    margin:15px 0;
+}
+.logo-h1 {
+    height:2.5rem;
+    margin-right:1rem;
+    margin-bottom:0.5rem;
 }

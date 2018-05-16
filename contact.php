@@ -20,9 +20,9 @@
                     <div class="col-12 col-md-6">
                         <h1 class="py-3">Get in touch</h1>
                         <p>Custom project to discuss? Give us a call or visit our showroom.</p>
-                        <h2 class="h5 mt-4"><i class="far fa-location-arrow"></i> Our location</h2>
+                        <h2 class="h5 mt-4"><i class="fal fa-map-marker"></i> Our location</h2>
                         <p><a href="https://www.google.com/maps/place/252+Argyle+Ave,+Ottawa,+ON+K2P+1B9/@45.410664,-75.691424,15z/data=!4m5!3m4!1s0x4cce05b045093563:0x88f72b5f35b2f8bb!8m2!3d45.4106639!4d-75.6914237?hl=en-CA" class="text-dark" target="_blank">252 Argyle Ave<br>Ottawa, ON K2P 1B9</a></p>
-                        <h2 class="h4 mt-5"><i class="fal fa-file-alt"></i> Request a Quote</h2>
+                        <h2 class="h5 mt-5"><i class="fal fa-file-alt"></i> Request a Quote</h2>
                         <ul class="list-unstyled py-2">
                             <li>Robert Hardy, Sales Manager</li>
                             <li><a class="text-dark" href="tel:16137397696">+1.613.739.7696</a></li>
@@ -31,9 +31,9 @@
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <div class="card rounded-0 mb-3">
+                        <div class="card rounded-0 mb-3 high-card">
                             <div class="card-body">
-                                <h2 class="h3">Book an appointment.</h2>
+                                <h2 class="h3"><i class="fal fa-calendar-alt"></i> Book an appointment.</h2>
                                 <form class="mt-3" method="POST" action="https://formspree.io/chris@loogart.com">
                                     <div class="form-group">
                                         <label for="name">Your name</label>
@@ -58,7 +58,7 @@
                                     <button class="btn btn-dark btn-block rounded-0 bg-darker" type="submit"><i class="far fa-check"></i> Submit</button>
                                     <input type="hidden" name="_subject" value="Solii: Quote Request" />
                                     <input type="text" name="_gotcha" style="display:none" />
-                                    <input type="hidden" name="_next" value="http://loog.ca/solii">
+                                    <input type="hidden" name="_next" value="http://loog.ca/solii/thank-you.php">
                                     <input type="hidden" name="_cc" value="chris.soueidan@gmail.com" />
                                 </form>
                             </div>
