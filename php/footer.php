@@ -115,12 +115,12 @@ echo '
                     </ul>
                 </div>
                 <div class="col-12 d-flex justify-content-start flex-wrap">
-                    <img class="certification-logo" src="img/certifications/logo-energy-start.png">
-                    <img class="certification-logo" src="img/certifications/logo-aama.png">
-                    <img class="certification-logo" src="img/certifications/logo-fsc.jpg">
-                    <img class="certification-logo" src="img/certifications/logo-nfrc.png">
-                    <img class="certification-logo" src="img/certifications/logo-sa.gif">
-                    <img class="certification-logo" src="img/certifications/logo-wdma.bmp">
+                    <img class="certification-logo" src="img/certifications/logo-energy-star.svg">
+                    <img class="certification-logo" src="img/certifications/logo-aama.svg">
+                    <img class="certification-logo" src="img/certifications/logo-fsc.svg">
+                    <img class="certification-logo" src="img/certifications/logo-nfrc.svg">
+                    <img class="certification-logo" src="img/certifications/logo-sa.svg">
+                    <img class="certification-logo" src="img/certifications/logo-wdma.svg">
                 </div>
                 <div class="col-12">
                     <hr style="border-bottom: 1px solid #333">

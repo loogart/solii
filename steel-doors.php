@@ -21,7 +21,7 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/doors/steel.jpg">
                         <div class="product-images">
-                            <a href="./img/doors/steel.jpg" class="darker">View all Photos</a>
+                            <a href="./img/doors/steel.jpg" class="d-none">View all Photos</a>
                             <a href="./img/gallery/doors/steel_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
@@ -41,25 +41,6 @@
                                 <p>Available in almost any colour and a variety of mouldings, steel doors provide excellent thermal insulation, all the while making a modern addition to your home. Choose refinement with a wide variety of stained glass.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
-                                <h3 class="py-3">Advantages</h3>
-                                <ul>
-                                    <li>Increased comfort</li>
-                                    <li>Easy maintenance</li>
-                                    <li>Affordable</li>
-                                    <li>Neat appearance</li>
-                                </ul>
-                                <h3 class="py-3">Chracteristics</h3>
-                                <ul>
-                                    <li>Magnetic weather-stripping</li>
-                                    <li>Wide variety of glass</li>
-                                    <li>Various mouldings</li>
-                                </ul>
-                                <h3 class="py-3">Materials</h3>
-                                <ul>
-                                    <li>Infinite choice of colors</li>
-                                    <li>Steel with solid wood interior</li>
-                                    <li>Pine, oak, maple, mahogany, wild cherry, Colombian cedar</li>
-                                </ul>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>

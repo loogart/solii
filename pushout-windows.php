@@ -21,7 +21,7 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/windows/pushout.png">
                         <div class="product-images">
-                            <a href="./img/windows/pushout.png" class="darker">View all Photos</a>
+                            <a href="./img/windows/pushout.png" class="d-none">View all Photos</a>
                             <a href="./img/gallery/pushout_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>

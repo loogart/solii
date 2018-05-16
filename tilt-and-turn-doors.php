@@ -21,7 +21,7 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/doors/tilt-turn.jpg">
                         <div class="product-images">
-                            <a href="./img/doors/tilt-turn.jpg" class="darker">View all Photos</a>
+                            <a href="./img/doors/tilt-turn.jpg" class="d-none">View all Photos</a>
                             <a href="./img/gallery/doors/tilt-turn_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
@@ -41,31 +41,6 @@
                                 <p>The most versatile patio door on the market, the tilt-turn door provides the convenient option to partially open your patio doors to ventilate your home without compromising security. Choose single or double doors, with or without top or side windows, and with a variety of decorative options to match your project’s architectural style.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
-
-                                <h3 class="py-3">Advantages</h3>
-                                <ul>
-
-                                    <li>Easy maintenance</li>
-                                    <li>Very esthetic appearance</li>
-                                    <li>Safe</li>
-                                    <li>Great brightness</li>
-                                    <li>Innovative product</li>
-                                </ul>
-                                <h3 class="py-3">Characteristics</h3>
-                                <ul>
-                                    <li>Tilt to open</li>
-                                    <li>Very large glass surface available</li>
-                                    <li>Robust European hardware</li>
-                                    <li>Custom design</li>
-                                    <li>Ideal product for modern and spartan architectures</li>
-                                </ul>
-
-                                <h3 class="py-3">Materials</h3>
-                                <ul>
-                                    <li>Aluminum: metal, anodized, or infinite color finish</li>
-                                    <li>PVC</li>
-                                    <li>PVC and wood interior</li>
-                                </ul>
                             </div>
 
 

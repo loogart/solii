@@ -11,22 +11,27 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <iframe class="mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.9343267190106!2d-75.69361238444436!3d45.41066387910032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b045093563%3A0x88f72b5f35b2f8bb!2s252+Argyle+Ave%2C+Ottawa%2C+ON+K2P+1B9!5e0!3m2!1sen!2sca!4v1525553778914" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="overflow-hidden">
+            <img class="product-jumbotron rellax" src="./img/about.jpg">
+        </div>
         <section class="content-area pb-5">
-            <div class="container p-3">
-                <div class="row d-flex justify-content-md-center">
-                    <div class="col-12 col-md-8">
-
-                        <h1 class="py-3">Request a Quote</h1>
+            <div class="container p-md-5">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h1 class="py-3">Get in touch</h1>
                         <p>Custom project to discuss? Give us a call or visit our showroom.</p>
+                        <h2 class="h5 mt-4"><i class="far fa-location-arrow"></i> Our location</h2>
+                        <p><a href="https://www.google.com/maps/place/252+Argyle+Ave,+Ottawa,+ON+K2P+1B9/@45.410664,-75.691424,15z/data=!4m5!3m4!1s0x4cce05b045093563:0x88f72b5f35b2f8bb!8m2!3d45.4106639!4d-75.6914237?hl=en-CA" class="text-dark" target="_blank">252 Argyle Ave<br>Ottawa, ON K2P 1B9</a></p>
+                        <h2 class="h4 mt-5"><i class="fal fa-file-alt"></i> Request a Quote</h2>
                         <ul class="list-unstyled py-2">
                             <li>Robert Hardy, Sales Manager</li>
                             <li><a class="text-dark" href="tel:16137397696">+1.613.739.7696</a></li>
                             <li><a class="text-dark" href="mailto:robert@solii.ca">robert@solii.ca</a></li>
                         </ul>
+                    </div>
 
-
-                        <div class="card rounded-0 my-3">
+                    <div class="col-12 col-md-6">
+                        <div class="card rounded-0 mb-3">
                             <div class="card-body">
                                 <h2 class="h3">Book an appointment.</h2>
                                 <form class="mt-3" method="POST" action="https://formspree.io/chris@loogart.com">

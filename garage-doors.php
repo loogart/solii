@@ -21,7 +21,7 @@
                     <div class="col-12 col-md-4 text-center product-img">
                         <img class="img-fluid p-4" src="./img/doors/garage.jpg">
                         <div class="product-images">
-                            <a href="./img/doors/garage.jpg" class="darker">View all Photos</a>
+                            <a href="./img/doors/garage.jpg" class="d-none">View all Photos</a>
                             <a href="./img/gallery/doors/garage_1.jpg" class="d-none">Open popup 2</a>
                         </div>
                     </div>
