@@ -58,8 +58,9 @@
                     <div class="p-md-5 w-75 darker">
                         <h2 class="display-5 text-uppercase">Made in Canada</h2>
                         <p class="my-md-4">Supporting Canadian talent is something we are proud of, and as each product bears the hallmarks of time-honoured Canadian craftsmanship - you can be proud too. </p>
-                        <div class="embed-responsive embed-responsive-16by9 video-shadow">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ERd9v_3KPuQ" allowfullscreen></iframe>
+                        <div class="embed-responsive embed-responsive-16by9 video-shadow text-light d-flex align-items-center justify-content-center" style="background:#000">
+                            <h4><i class="fal fa-video-slash"></i> Video Coming Soon.</h4>
+                            <!-- <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>-->
                         </div>
                     </div>
                 </div>

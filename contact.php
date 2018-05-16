@@ -34,7 +34,7 @@
                         <div class="card rounded-0 mb-3 high-card">
                             <div class="card-body">
                                 <h2 class="h3"><i class="fal fa-calendar-alt"></i> Book an appointment.</h2>
-                                <form class="mt-3" method="POST" action="https://formspree.io/chris@loogart.com">
+                                <form class="mt-3" method="POST" action="https://formspree.io/info@solii.ca">
                                     <div class="form-group">
                                         <label for="name">Your name</label>
                                         <input class="form-control rounded-0" type="text" name="name" placeholder="First name and last name">
@@ -59,7 +59,7 @@
                                     <input type="hidden" name="_subject" value="Solii: Quote Request" />
                                     <input type="text" name="_gotcha" style="display:none" />
                                     <input type="hidden" name="_next" value="http://loog.ca/solii/thank-you.php">
-                                    <input type="hidden" name="_cc" value="chris.soueidan@gmail.com" />
+                                    <input type="hidden" name="_cc" value="robert@solii.ca" />
                                 </form>
                             </div>
                         </div>
