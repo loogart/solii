@@ -58,7 +58,7 @@
                                     <button class="btn btn-dark btn-block rounded-0 bg-darker" type="submit"><i class="far fa-check"></i> Submit</button>
                                     <input type="hidden" name="_subject" value="Solii: Quote Request" />
                                     <input type="text" name="_gotcha" style="display:none" />
-                                    <input type="hidden" name="_next" value="http://loog.ca/solii/thank-you.php">
+                                    <input type="hidden" name="_next" value="http://solii.ca/thank-you.php">
                                     <input type="hidden" name="_cc" value="robert@solii.ca" />
                                 </form>
                             </div>
