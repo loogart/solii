@@ -36,8 +36,7 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Lift &amp; Slide Doors</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <h2 class="py-3">Customize Your Lift &amp; Slide Doors</h2>
                                 <p>Push the boundary between interior and exterior and prolong the pleasures of each season with our lift and sliding doors. Thanks to a superior roll open and close mechanism, our custom-built doors reach impressive dimensions and can have up to six sliding frames of glass, all while remaining remarkably easy to maneuver. Available in a one-panel or multi-panel Lift-Slide Pocket Door, bring the outside in today.
                                 </p>
                                 <p>Material and finish options may vary.</p>
@@ -143,9 +142,7 @@
                                     </tr>
                                 </table>
                                 <p>Ratings vary depending on the chosen door system. </p>
-
                                 <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or contact us - our experts can help bring your vision to life.</p>
-
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>

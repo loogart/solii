@@ -36,8 +36,7 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Contemporary Door</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life.</p>
+                                <h2 class="py-3">Customize Your Contemporary Door</h2>
                                 <p>This trend-driven contemporary door features clean, sleek lines and makes for a bold first impression. Combining an aesthetic that favors minimalism and flexibility in design, a contemporary door is often punctuated by glass inserts, stainless steel strips, or other materials depending on taste. Make it your own. </p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">

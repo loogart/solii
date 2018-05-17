@@ -36,11 +36,12 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Steel Door</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life.</p>
+                                <h2 class="py-3">Customize Your Steel Door</h2>
                                 <p>Available in almost any colour and a variety of mouldings, steel doors provide excellent thermal insulation, all the while making a modern addition to your home. Choose refinement with a wide variety of stained glass.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
+                                <h3 class="py-3">Performance</h3>
+                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life.</p>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>

@@ -37,8 +37,8 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Specialty Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
+                                <h2 class="py-3">Customize Your Specialty Window</h2>
+                                <p>Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
                                 <p>There is no better opportunity to let your creative dreams come to life than with a custom designed architectural window. Design any geometric shape or original profile to match the architecture of your home - if you can dream it, we can build it. No limitations.</p>
                                 <hr class="mt-5">
                                 <h3 class="py-3">Solid Wood Construction</h3>

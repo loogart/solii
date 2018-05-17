@@ -19,7 +19,7 @@
                     <h2 class="h3 text-uppercase mb-4 darker">Windows &amp; Doors</h2>
                     <a class="btn btn-dark bg-darker border-light btn-shadow" href="mailto:robert@solii.ca">Get a custom quote</a>
                 </div>
-                <img class="img-jumbotron rellax" src="./img/jumbotron-2.jpg">
+                <img class="img-jumbotron rellax" src="./img/jumbotron.jpg">
             </div>
         </section>
 
@@ -27,7 +27,7 @@
         <section class="classic-vs-modern">
             <div class="d-md-flex flex-md-equal p-3">
                 <div class="pr-md-2 mb-3 mb-md-0">
-                    <img class="w-100 img-style" src="img/classic.jpg">
+                    <img class="w-100 img-style" src="img/classic-2.jpg">
                     <div class="bg-beige text-left darker">
                         <div class="p-5">
                             <h2 class="display-5 text-uppercase">Classic<br> Traditional</h2>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="pl-md-2">
-                    <img class="w-100 img-style" src="img/modern.png">
+                    <img class="w-100 img-style" src="img/modern.jpg">
                     <div class="bg-darker text-left text-light">
                         <div class="p-5">
                             <h2 class="display-5 text-uppercase">Sleek<br> Modern</h2>
@@ -76,7 +76,7 @@
                     </div>
                     <div class="col-md-6 d-flex flex-column p-5 d-flex flex-column justify-content-center darker">
                         <h2 class="text-uppercase">A First Impression Like No Other</h2>
-                        <p>Make the right first impression. As the exclusive Ontario distributor for award-winning Belisle Architectural and Dionne Architecturale, Solii Artisanal Windows & Doors is proud to offer superior Canadian-made, luxury windows and doors for your next new build or renovation project.</p>
+                        <p>Make the right first impression. As the exclusive Ontario distributor for award-winning Belisle Architectural and Dionne Architectural, Solii Artisanal Windows &amp; Doors is proud to offer superior Canadian-made, luxury windows and doors for your next new build or renovation project.</p>
                     </div>
                 </div>
             </div>

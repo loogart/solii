@@ -31,7 +31,7 @@
                         <img class="my-4" src="img/logo-belisle.svg" style="height:100px">
                         <h3 class="h4 mb-4">Belisle Architectural Windows and Doors</h3>
                         <p>More than 45 years of specialized experience crafting luxury artisanal windows and doors yields an incomparable luxury product.</p>
-                        <p>Commissioned to produce heritage and custom windows and doors of some of the most iconic buildings in Canada and the United States, Belisle is known for an artisanal eye that creates a dynamic transition between interior and exterior spaces.L</p>
+                        <p>Commissioned to produce heritage and custom windows and doors of some of the most iconic buildings in Canada and the United States, Belisle is known for an artisanal eye that creates a dynamic transition between interior and exterior spaces.</p>
                         <p>Distinguished from its peers through age old techniques passed down through generations, each Belisle custom piece is made with painstaking precision. Solid wood construction and Energy Star efficient, traditional craftsmanship blends with 21st century innovation to produce one of a kind windows and doors for your next luxury project.</p>
                     </div>
                     <div class="col-12 col-md-6">
@@ -39,7 +39,7 @@
                         <img class="my-4" src="img/logo-dionne.svg" style="height:100px">
                         <h3 class="h4 mb-4">Dionne Architectural</h3>
                         <p>Sleek. Modern. You know the type. European hardware, high performance aluminium tilt and turn windows answer to contemporary design demands.</p>
-                        <p> Easily integrated to fit seamlessly into your architectural and building criteria, Dionne Windows are crafted with the highest attention to detail and a wide range functionalities. Energy Star Certified for optimal efficiency. Bring the outside in - your clients will love you for it.</p>
+                        <p> Easily integrated to fit seamlessly into your architectural and building criteria, Dionne windows are crafted with the highest attention to detail and a wide range of functionalities. Energy Star Certified for optimal efficiency. Bring the outside in - your clients will love you for it.</p>
                     </div>
                 </div>
                 <div class="row my-4">

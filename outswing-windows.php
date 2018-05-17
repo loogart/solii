@@ -36,8 +36,8 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Outswing Casement Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
+                                <h2 class="py-3">Customize Your Outswing Casement Window</h2>
+                                <p>Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
                                 <p>Blending best with modern or contemporary designs, the classic outswing casement and awning window adds singular character to any residential or commercial project. This superior custom product reflects a preference towards traditional outward opening windows while offering unobstructed views and maximum ventilation. It also integrates well with fixed frame windows and doors.</p>
                                 <p>The out-swing casement window is operated by using a high-quality roto-operator. The operable sash is assembled with mortise and tenon joinery and is supported by concealed stainless steel hinges.</p>
                                 <p>Material and finish options may vary.</p>

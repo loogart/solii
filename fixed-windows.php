@@ -37,8 +37,8 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Panoramic Fixed Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.
+                                <h2 class="py-3">Customize Your Panoramic Fixed Window</h2>
+                                <p>Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.
                                 </p>
                                 <p>Contemporary in style, the fixed frame panoramic window celebrates natural light, inviting your space to unfold in pure, natural beauty.</p>
                                 <p> The panoramic window can be custom-made with several sections of glass retained in wooden frames - fine sightlines maximize every vista. With its luminosity, it is the natural ally of the tilt-turn, yielding efficient ventilation in any space.</p>

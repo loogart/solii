@@ -36,8 +36,7 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Insulated Aluminum Tilt-Turn Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life.</p>
+                                <h2 class="py-3">Customize Your Insulated Aluminum Tilt-Turn Window</h2>
                                 <p>Each high-performance aluminum tilt-turn can be customized for sizing, glazing, finishes, and colour. Each and every Dionne product is Energy Star certified so you can stay cool and comfortable in the summer, and warm and cozy in the winter. Whether your project is architectural, residential, or commercial, our product will adapt to your environment to create a lighter, more open space. Create unobstructed views and enjoy your surroundings.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">

@@ -36,11 +36,12 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Garage Door</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <h2 class="py-3">Customize Your Garage Door</h2>
                                 <p>Often the first thing people see, the authenticity of a premium wood garage door elevates first impressions in a luxury home. With a personalized look and feel that’s aligned with the design of your home, be confident in the security and style offered by a Solii garage door. </p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
+                                <h3 class="py-3">Performance</h3>
+                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or contact us - our experts can help bring your vision to life.</p>
 
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">

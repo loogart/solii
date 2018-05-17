@@ -36,8 +36,8 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Push-Out Casement Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
+                                <h2 class="py-3">Customize Your Push-Out Casement Window</h2>
+                                <p>Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
                                 <p>The traditional push-out window was inspired by the architecture of the early 16th century. One of the most recognizable elements of this architecture is the use of leaded glass panels within heavy mullioned windows. There is elegance in the contrast of dark solid wood against a historical cachet. Designed with the highest standards of quality, and executed with the highest standards of construction, this premium custom window adds an enchanting element to any home.</p>
                                 <p>The push-out casement window is operated by using a solid brass cam lock and friction stay. The operable sash is assembled with mortise and tenon joinery and is supported by solid brass screw-in butt hinges.</p>
                                 <p>As always with Solii custom products, the options are endless. Decorative Colonial, Diamond or Tudor-style geometric muntin patterns combine a leaded glass panel within an insulated glass unit (triple glazed).</p>

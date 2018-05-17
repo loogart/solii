@@ -37,8 +37,8 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Inswing Casement Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
+                                <h2 class="py-3">Customize Your Inswing Casement Window</h2>
+                                <p>Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
                                 <p>Boasting character and historic charm, the inswing casement style in particular is a classic design that fits seamlessly into most residential projects. The result? A custom-made window with a perfect blend of period design and modern technology.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">

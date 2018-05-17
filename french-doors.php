@@ -36,8 +36,7 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your French Doors</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <h2 class="py-3">Customize Your French Doors</h2>
                                 <p>Made of luxurious solid wood, the French door with two leaves offers incomparable elegance and timeless appeal. Full-size glazing yields exceptional brightness and adds a sense of prestige to any space. A celebration of time-honoured craftsmanship merged with state of the art technology, this door brightens interiors like nothing else.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">

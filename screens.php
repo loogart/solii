@@ -36,8 +36,7 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Screen Door</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <h2 class="py-3">Customize Your Screen Door</h2>
                                 <p>There’s nothing like fresh air flowing through your home, and a screen door perfectly suited to your front door offers optimal air flow and great style. Made according to custom specifications, our door frames are tailor-made to match the dimensions and style of your front door. </p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">

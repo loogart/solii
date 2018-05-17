@@ -36,15 +36,13 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Tilt-Turn Door</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <h2 class="py-3">Customize Your Tilt-Turn Door</h2>
                                 <p>The most versatile patio door on the market, the tilt-turn door provides the convenient option to partially open your patio doors to ventilate your home without compromising security. Choose single or double doors, with or without top or side windows, and with a variety of decorative options to match your project’s architectural style.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">
+                                <h3 class="py-3">Performance</h3>
+                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
                             </div>
-
-
-
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <h2 class="py-3">Available Downloads</h2>
                                 <p>Documents and product brochure are available upon request. </p>

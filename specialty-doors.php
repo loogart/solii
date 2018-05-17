@@ -36,8 +36,7 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Specialty Door</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <h2 class="py-3">Customize Your Specialty Door</h2>
                                 <p>The beauty of a custom architectural door lies in its ability to be completely custom designed, as well as adhere to specific construction standards, such as fire rating or sound transmission. This unique type of door allows you to create an impeccable entrance that harmonizes with the aesthetic of your, or your client’s, home. </p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">

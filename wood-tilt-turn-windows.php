@@ -36,8 +36,7 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Solid Wood Tilt-Turn Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life.</p>
+                                <h2 class="py-3">Customize Your Solid Wood Tilt-Turn Window</h2>
                                 <p>European design and engineering puts the tilt-turn window at the forefront of contemporary design. For those who seek a lifestyle of simplicity and function, it offers clean lines that embody the essence of refinement in a space.
                                 </p>
                                 <p>Remarkably windproof, waterproof, and robust, the tilt-turn window can be produced in custom extra-large sizes. Clever design yields a multi-point locking system that seals the sash to the frame on all four sides, just like an airplane door.</p>

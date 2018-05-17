@@ -36,8 +36,7 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Single Door</h2>
-                                <p>Each Solii door is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. </p>
+                                <h2 class="py-3">Customize Your Single Door</h2>
                                 <p>Robust and exceptionally well manufactured; a solid wood front door highlights warmth and hospitality while being a jumping off point for your home’s stylistic reference. Whether part of the main or secondary front door system, our solid wood door is incredibly durable and classic in design.</p>
                                 <p>Material and finish options may vary.</p>
                                 <hr class="mt-5">

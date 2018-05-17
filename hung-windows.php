@@ -36,8 +36,8 @@
                         </ul>
                         <div class="tab-content pt-4 pb-5" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <h2 class="py-3">Customize your Single, Double and Triple Hung Window</h2>
-                                <p>Each Solii window is custom crafted. Harness your creativity and develop your own design, or get our experts to help bring your vision to life. Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
+                                <h2 class="py-3">Customize Your Single, Double and Triple Hung Window</h2>
+                                <p>Our classic style windows are made of solid wood only; no laminates, finger joints, or veneers are used.</p>
                                 <p>A true work of art and a testament to quality craftsmanship, this exceptional window is made of solid wood and hand finished - a stunning combination of beauty and strength.</p>
                                 <p>Like all of our custom windows, the choice is yours: one, two, or three operating sashes with a concealed counter balance system or antique brass opening mechanism with pulleys, weights, and chains. No matter your style, the result is a window that is durable, reliable, and timeless.
                                 </p>
