@@ -586,7 +586,8 @@ form label {
 .blog-header h2 {
     color: #888;
 }
-.blog-header a{
+
+.blog-header a {
     text-decoration: none;
 }
 
@@ -603,19 +604,62 @@ form label {
     object-position: center;
 }
 
-.blog p {
-
+.blog p, .blog li {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 21px;
     line-height: 1.64;
     letter-spacing: .02em;
-    color:rgba(0,0,0,.79);
+    color: rgba(0, 0, 0, .79);
 }
 
-a.blog-nav{
+a.blog-nav {
+    color: #333;
+}
+
+.blog a{
     color:#333;
+}
+
+.blog h3{
+    margin-top:50px;
+    font-size: 2.2rem;
+}
+
+.blog h4{
+    color:#333;
+    margin-top:30px;
+    margin-bottom:15px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.blog h5{
+    margin-top:40px;
+    margin-bottom:20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}    
+
+.blog img{
+    width:100%;
+    margin-top:15px;
+    margin-bottom:30px;
+}
+
+.blockquote {
+    border-left: 3px solid #333;
+    padding-left: 30px;
+    margin-left: -30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.blockquote p {
+    font-weight: 100;
+    font-style: italic;
 }
 
 .logo-h1 {
