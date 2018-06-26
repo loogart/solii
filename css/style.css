@@ -47,7 +47,7 @@ a {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1069px; /* previous was 960px CS, June 26, 2018*/
 }
 
 /*
@@ -579,4 +579,16 @@ form label {
     height:2.5rem;
     margin-right:1rem;
     margin-bottom:0.5rem;
+}
+
+.card-body a, .card-body p{
+    text-decoration: none;
+    color:#222;
+}
+
+a.card-text{
+    line-height: 1.4rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 300;
 }
