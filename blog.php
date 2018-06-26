@@ -11,7 +11,7 @@
     <?php include './php/navbar.php';?>
 
     <main>
-        <div class="content-area">
+        <div class="content-area video-section">
             <div class="container p-md-5">
                 <div class="row">
                     <div class="col-12 mx-auto">
@@ -124,7 +124,14 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-6 mx-auto mt-3">
+                        <div class="btn-group" role="group" aria-label="pagination">
+                            <button type="button" class="btn btn-default"><i class="fa fa-arrow-left"></i> Newer Posts</button>
+                            <button type="button" class="btn btn-secondary">Older Posts <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </main>

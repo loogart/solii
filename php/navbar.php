@@ -9,7 +9,6 @@ echo '
             <a class="p-3 site-header-item" href="#!" id="showDoors">Doors</a>
             <a class="p-3 site-header-item" href="./about.php" id="aboutPage">About</a>
             <a class="p-3 site-header-item" href="./contact.php" id="contactPage">Contact</a>
-            <a class="p-3 site-header-item" href="./blog.php" id="">Blog</a>
             <a class="p-3 site-header-item" href="#!" id="">FR</a>
             <a class="p-3" href="#!" id="showSearch"><i class="fa fa-search"></i> Search</a>
         </div>
