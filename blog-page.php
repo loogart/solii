@@ -12,26 +12,25 @@
 
     <main>
         <div class="content-area blog-header">
-            <div class="container p-md-5">
+            <div class="container py-3 p-md-5">
                 <div class="row">
-                    <div class="col-9 mx-auto">
+                    <div class="col-12 col-sm-9 mx-auto">
                         <a href="./blog.php" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
-                        <hr class="mb-5">
+                        <hr class="mb-4 mb-sm-5">
                         <p class="h6 text-muted">June 26, 2018</p>
                         <h1 class="my-3">5 Things to Consider When Selecting Custom Luxury Windows</h1>
                         <h2 class="h3">Tips to help you win(dow).</h2>
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="overflow-hidden">
             <img class="blog-jumbotron" src="./img/about.jpg">
         </div>
         <div class="content-area blog">
-            <div class="container p-md-5">
+            <div class="container py-3 p-md-5">
                 <div class="row">
-                    <div class="col-9 mx-auto">
+                    <div class="col-12 col-sm-9 mx-auto">
                         <p>Whether you’re building a custom home from scratch, or looking to replace the windows in your current home, windows are a big investment. Not only do they shape your daily view of the outside, but they keep your interior spaces bright and comfortable. Windows add major curb appeal, and can have great effects on your home’s efficiency - if you want to add value to your dwelling, windows are where it’s at.</p>
 
                         <!-- PULLQUOTE -->

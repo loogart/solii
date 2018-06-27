@@ -124,10 +124,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mx-auto mt-3">
+                    <div class="col-12 text-center mx-auto my-3">
                         <div class="btn-group" role="group" aria-label="pagination">
-                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-arrow-left"></i> Newer Posts</button>
-                            <button type="button" class="btn btn-outline-secondary">Older Posts <i class="fa fa-arrow-right"></i></button>
+                            <button type="button" class="btn btn-outline-dark"><i class="fa fa-arrow-left"></i> Newer</button>
+                            <button type="button" class="btn btn-outline-secondary">Older <i class="fa fa-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>
