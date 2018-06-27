@@ -19,13 +19,13 @@
                         <hr class="mb-4 mb-sm-5">
                         <p class="h6 text-muted">June 26, 2018</p>
                         <h1 class="my-3">5 Things to Consider When Selecting Custom Luxury Windows</h1>
-                        <h2 class="h3">Tips to help you win(dow).</h2>
+<!--                        <h2 class="h3">Tips to help you win(dow).</h2>-->
                     </div>
                 </div>
             </div>
         </div>
         <div class="overflow-hidden">
-            <img class="blog-jumbotron" src="./img/about.jpg">
+            <img class="blog-jumbotron" src="./img/blog1.jpg">
         </div>
         <div class="content-area blog">
             <div class="container py-3 p-md-5">
@@ -131,13 +131,13 @@
                         <p>These tips will help you make a better decision about which windows to choose for your home. Your architect or builder will be a great jumping off point for your questions, but so are we! Don’t be shy to send us any questions you have about your custom project in Ottawa - we’d be happy to take a look at your drawings, respond to any concerns, and <a href="mailto:info@solii.ca"><strong>provide you with a custom quote</strong></a>!</p>
 
                         <!-- PULLQUOTE -->
+<!--
                         <blockquote class="blockquote">
                             <p class="mb-1">I Can't Live Without My Radio You Can't Dance Dear Yvette I Can Give You More Dangerous
                             </p>
                             <footer class="blockquote-footer">LL Cool J, Hip Hop Legend</footer>
                         </blockquote>
-
-                        <p>Have an awesome Monday!</p>
+-->
 
                         <hr class="mt-5">
                         <a href="./blog.php" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
