@@ -163,6 +163,7 @@ echo '
         </div>
     </footer>
 
+
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.bundle.js"></script>
@@ -171,4 +172,25 @@ echo '
     <script src="./js/rellax.js"></script>
     <script src="./js/jquery.magnific-popup.min.js"></script>
     <script src="./js/scripts.js"></script>
+    
+        
+    <!-- MARKETING POPUP -->
+    <div class="modal" id="popupSolii" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <a style="color:#fff!important;float:right" data-dismiss="modal" aria-label="Close">
+              <i class="fas fa-times"></i>
+            </a>
+            <div class="modal-content">
+                <div class="modal-body" style="padding:0">
+                    <a href="./contact.php"><img class="img-fluid" src="./img/extra/2018-06-29_canada-day.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $("#popupSolii").modal("show");});
+    </script>
+    <!-- END of MARKETING POPUP -->
+
 ';?>
