@@ -15,7 +15,7 @@
             <div class="container py-3 p-md-5">
                 <div class="row">
                     <div class="col-12 col-sm-9 mx-auto">
-                        <a href="./blog.php" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
+                        <a href="./blog" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
                         <hr class="mb-4 mb-sm-5">
                         <h1 class="my-3">Key Features to Include in Your Next Luxury Kitchen Renovation</h1>
                     </div>
@@ -59,7 +59,7 @@
                         <p>Many of these ideas can be easily integrated into current kitchen plans, or if you’re thinking of a full kitchen renovation, these features are great ways to elevate your space. Got questions? Thinking of a kitchen renovation? Check out our gallery for some inspiration (link to gallery) or give us a call (link to contact page) to discuss with our specialists - we’d love to hear from you! </p>
 
                         <hr class="mt-5">
-                        <a href="./blog.php" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
+                        <a href="./blog" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
                     </div>
                 </div>
             </div>

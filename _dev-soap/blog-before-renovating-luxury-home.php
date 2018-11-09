@@ -15,7 +15,7 @@
             <div class="container py-3 p-md-5">
                 <div class="row">
                     <div class="col-12 col-sm-9 mx-auto">
-                        <a href="./blog.php" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
+                        <a href="./blog" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
                         <hr class="mb-4 mb-sm-5">
                         <h1 class="my-3">Four Must-do’s Before Renovating Your Luxury Home </h1>
                     </div>
@@ -54,7 +54,7 @@
                         
                        
                         <hr class="mt-5">
-                        <a href="./blog.php" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
+                        <a href="./blog" class="blog-nav"><i class="fas fa-th"></i> All Posts</a>
                     </div>
                 </div>
             </div>
