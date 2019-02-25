@@ -69,7 +69,7 @@
 
                         <figure>
                             <img class="img-responsive shadow" src="./img/blog-img/2019-02-24/2_davids-tea.png" alt="Photo of a Vieux Quebec David's Tea Building">
-                            <figcaption><i>Image source</i> <a href="https://www.belislewindows.com/style-realisations/historic/?lang=en" target="_blank">FBelisle, Architectural Windows and Doors</a></figcaption>
+                            <figcaption><i>Image source</i> <a href="https://www.belislewindows.com/style-realisations/historic/?lang=en" target="_blank">Belisle, Architectural Windows and Doors</a></figcaption>
                         </figure>
 
                         <p>Do you have a heritage home and are looking to update? Architectural windows and doors are a seamless way to incorporate 21st century comforts while respecting your home’s history. Feeling inspired to add your own slice of Canadian heritage and craftsmanship to your home?</p>
