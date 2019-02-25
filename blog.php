@@ -30,7 +30,17 @@
                     <div class="col-12 mx-auto">
 
                         <div class="card-deck mb-3">
-
+<div class="card">
+                                <a href="./how-to-make-your-luxury-home-more-eco-friendly"><img class="card-img-top" src="./img/eco-friendly-1.jpg" alt="Eco-Friendly"></a>
+                                <div class="card-body">
+                                    <a class="card-title" href="./how-to-make-your-luxury-home-more-eco-friendly">
+                                        <h5>How to Make Your Luxury Home More Eco-Friendly</h5>
+                                    </a>
+                                    <a class="card-text" href="./how-to-make-your-luxury-home-more-eco-friendly">
+                                        <p>Homeowners will love the opportunity to combine both style and eco-friendly features.</p>
+                                    </a>
+                                </div>
+                            </div>
                             <div class="card">
                                 <a href="./signs-you-need-to-upgrade-your-front-door.php"><img class="card-img-top" src="./img/blog-front-door-1.jpg" alt="House with nice front door"></a>
                                 <div class="card-body">

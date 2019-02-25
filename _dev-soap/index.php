@@ -14,9 +14,11 @@
 </head>
 
 <body>
+<!--
    <div class="p-2 bg-light text-center" style="background-image:url('https://solii.ca/img/gallery/fixed_2.jpg');background-size:cover;">
        <strong>10% OFF WINDOW ORDERS.</strong> EXPIRES NOVEMBER 30, 2018
    </div>
+-->
     <?php include './php/navbar.php';?>
 
     <main>
