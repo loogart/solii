@@ -3,7 +3,7 @@ echo '
    <nav class="site-header sticky-top">
         <div class="container d-flex flex-row justify-content-between text-uppercase scrollmenu">
             <a class="p-3" href="../">
-              <img class="nav-logo mt-md-" src="./img/logo-solii-short.svg">
+              <img class="nav-logo mt-md-" src="../img/logo-solii-short.svg">
             </a>
             <a class="p-3 site-header-item" href="#!" id="showWindows">Windows</a>
             <a class="p-3 site-header-item" href="#!" id="showDoors">Doors</a>

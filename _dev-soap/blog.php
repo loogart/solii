@@ -29,6 +29,19 @@
                 <div class="row">
 
                     <div class="card-deck mb-3">
+                       
+                        <div class="card">
+                            <a href="./what-is-an-architectural-window"><img class="card-img-top" src="./img/201904-blog/realisation-architecturale-fenetres-nocra-montreal-image-4-big.jpg" alt="Photo of a modern home with big windows, wood and slate finishes"></a>
+                            <div class="card-body">
+                                <a class="card-title" href="./what-is-an-architectural-window">
+                                    <h5>What is an Architectural Window and Why is it Perfect for Your Luxury Home</h5>
+                                </a>
+                                <a class="card-text" href="./what-is-an-architectural-window">
+                                    <p>If you are a luxury or custom home owner, you’ve likely heard the term “architectural window” before.</p>
+                                </a>
+                            </div>
+                        </div>
+
 
                         <div class="card">
                             <a href="./canadian-craftsmanship-honours-history"><img class="card-img-top" src="./img/blog-img/2019-02-24/_30A0987.jpg" alt="Eco-Friendly"></a>
@@ -53,7 +66,7 @@
                                 </a>
                             </div>
                         </div>
-                        
+
                     </div>
 
                     <div class="card-deck mb-3">
