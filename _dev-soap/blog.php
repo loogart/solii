@@ -31,7 +31,7 @@
                     <div class="card-deck mb-3">
                        
                         <div class="card">
-                            <a href="./what-is-an-architectural-window"><img class="card-img-top" src="./img/201904-blog/realisation-architecturale-fenetres-nocra-montreal-image-4-big.jpg" alt="Photo of a modern home with big windows, wood and slate finishes"></a>
+                            <a href="./what-is-an-architectural-window"><img class="card-img-top" src="./img/201904-blog/architectural-window.jpg" alt="Photo of a modern home with big windows, wood and slate finishes"></a>
                             <div class="card-body">
                                 <a class="card-title" href="./what-is-an-architectural-window">
                                     <h5>What is an Architectural Window and Why is it Perfect for Your Luxury Home</h5>

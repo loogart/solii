@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="overflow-hidden">
-            <img class="blog-jumbotron" src="./img/201904-blog/realisation-architecturale-fenetres-nocra-montreal-image-4-big.jpg" alt="Photo of a modern home with big windows, wood and slate finishes">
+            <img class="blog-jumbotron" src="./img/201904-blog/architectural-window.jpg" alt="Photo of a modern home with big windows, wood and slate finishes">
         </div>
         <div class="content-area blog">
             <div class="container py-3 p-md-5">
