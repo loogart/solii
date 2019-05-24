@@ -32,7 +32,7 @@
                     <div class="card-deck mb-3">
 
                         <div class="card">
-                            <a href="./blog-heritage-home-modern-twist"><img class="card-img-top" src="./img/20190524-blog/closet_doors.jpg" alt="Photo of a modern home with big windows, wood and slate finishes"></a>
+                            <a href="./blog-heritage-home-modern-twist"><img class="card-img-top" src="./img/20190524-blog/kitchen-windows-jumbotron.jpg" alt="Photo of a modern home with big windows, wood and slate finishes"></a>
                             <div class="card-body">
                                 <a class="card-title" href="./blog-heritage-home-modern-twist">
                                     <h5>What is an Architectural Window and Why is it Perfect for Your Luxury Home</h5>

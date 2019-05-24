@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="overflow-hidden">
-            <img class="blog-jumbotron" src="./img/20190524-blog/closet_doors.jpg" alt="Photo of a large white closet doors">
+            <img class="blog-jumbotron" src="./img/20190524-blog/kitchen-windows-jumbotron.jpg" alt="Photo of a modern kitchen with a nice wooden floor">
         </div>
         <div class="content-area blog">
             <div class="container py-3 p-md-5">
