@@ -30,6 +30,17 @@
 
 
                     <div class="card-deck mb-3">
+                        <div class="card">
+                            <a href="./blog-solii-spotlight-belisle-windows-doors"><img class="card-img-top" src="./img/20190606-blog/cover-vanderwarker.jpg" alt="brown bricked building with many classic windows on a cloudy day"></a>
+                            <div class="card-body">
+                                <a class="card-title" href="./blog-solii-spotlight-belisle-windows-doors">
+                                    <h5>Solii Spotlight: Belisle Artisanal Windows &amp; Doors</h5>
+                                </a>
+                                <a class="card-text" href="./blog-solii-spotlight-belisle-windows-doors">
+                                    <p>Strong, aesthetically on-point, classic. Wood windows and doors are a coveted feature in most luxury or custom homes, and it’s easy to understand why.</p>
+                                </a>
+                            </div>
+                        </div>
 
                         <div class="card">
                             <a href="./blog-heritage-home-modern-twist"><img class="card-img-top" src="./img/20190524-blog/kitchen-windows-jumbotron.jpg" alt="Photo of a modern home with big windows, wood and slate finishes"></a>
@@ -43,6 +54,11 @@
                             </div>
                         </div>
 
+
+                    </div>
+
+                    <div class="card-deck mb-3">
+                       
                         <div class="card">
                             <a href="./what-is-an-architectural-window"><img class="card-img-top" src="./img/201904-blog/architectural-window.jpg" alt="Photo of a modern home with big windows, wood and slate finishes"></a>
                             <div class="card-body">
@@ -54,10 +70,6 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="card-deck mb-3">
-
 
 
                         <div class="card">
