@@ -58,7 +58,7 @@
                                     <input type="hidden" name="_subject" value="Solii: Quote Request" />
                                     <input type="text" name="_gotcha" style="display:none" />
                                     <input type="hidden" name="_next" value="http://solii.ca/thank-you.php">
-                                    <input type="hidden" name="_cc" value="info@solii.ca" />
+                                    <input type="hidden" name="_cc" value="chris@loogart.com" />
                                 </form>
                             </div>
                         </div>
